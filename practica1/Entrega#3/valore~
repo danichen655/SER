@@ -1,0 +1,6 @@
+openssl enc -e -aes-128-cbc -a -p -pass pass:seguridad -in textoplano1.txt -out texto-aes-128-cbc-2.bin
+
+salt=DFB69B96C80B3EB5
+key=031E58A87218D9B75DC156F93829EC5C
+iv =7B1FA1084138C2D6EB13835C2B3E25AC
+

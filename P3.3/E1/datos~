@@ -1,0 +1,11 @@
+1-)130.206.13.20
+2-)ns.apnic.net. read-txt-record-of-zone-first-dns-admin.apnic.net.
+3-)
+rediris.es.		7199	IN	NS	ns02.fccn.pt.
+rediris.es.		7199	IN	NS	sun.rediris.es.
+rediris.es.		7199	IN	NS	chico.rediris.es.
+rediris.es.		7199	IN	NS	scsnms.switch.ch.
+rediris.es.		7199	IN	NS	ns15.communitydns.net.
+4-)
+rediris.es.		29	IN	MX	20 mx02.puc.rediris.es.
+rediris.es.		29	IN	MX	20 mx01.puc.rediris.es.

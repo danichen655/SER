@@ -1,0 +1,59 @@
+usuario@debian:~/practica3/demoCA/Entrega#6$ gpg --check-trustdb
+gpg: 3 dudosa(s) necesarias, 1 completa(s) necesarias,
+modelo de confianza PGP
+gpg: nivel: 0  validez:   4  firmada:   3  confianza: 0-, 0q, 0n, 0m, 0f, 4u
+gpg: nivel: 1  validez:   3  firmada:   1  confianza: 0-, 0q, 0n, 3m, 0f, 0u
+gpg: nivel: 2  validez:   1  firmada:   0  confianza: 0-, 1q, 0n, 0m, 0f, 0u
+gpg: siguiente comprobación de base de datos de confianza el: 2021-06-19
+
+
+pub   1024R/8F929F85 2021-03-21 [caduca: 2021-08-18]
+uid    [  absoluta ] user1
+sub   1024R/1D415023 2021-03-21 [caduca: 2021-08-18]
+
+pub   1024R/C0D031F7 2021-03-21 [caduca: 2021-06-19]
+uid    [   total   ] user2
+sub   1024R/1BA0E380 2021-03-21 [caduca: 2021-06-19]
+
+pub   1024R/25E66586 2021-03-21 [caduca: 2021-06-19]
+uid    [   total   ] user3
+sub   1024R/28C19BE1 2021-03-21 [caduca: 2021-06-19]
+
+pub   1024R/AA5D08E6 2021-03-21 [caduca: 2021-06-19]
+uid    [   total   ] user4
+sub   1024R/AD77605A 2021-03-21 [caduca: 2021-06-19]
+
+pub   1024R/CD24F382 2021-03-21 [caduca: 2021-06-19]
+uid    [   total   ] user5
+sub   1024R/89EB0901 2021-03-21 [caduca: 2021-06-19]
+
+
+pub  1024R/47391994  creado: 2021-03-17  caduca: 2021-08-14  uso: SC  
+                     confianza: absoluta      validez: absoluta
+sub  1024R/3FC4B163  creado: 2021-03-17  caduca: 2021-08-14  uso: E   
+[  absoluta ] (1). User1 <user1@dominio.net>
+
+
+pub  1024R/C0D031F7  creado: 2021-03-21  caduca: 2021-06-19  uso: SC  
+                     confianza: dudosa        validez: total
+sub  1024R/1BA0E380  creado: 2021-03-21  caduca: 2021-06-19  uso: E   
+[   total   ] (1). user2
+
+pub  1024R/25E66586  creado: 2021-03-21  caduca: 2021-06-19  uso: SC  
+                     confianza: no definido   validez: total
+sub  1024R/28C19BE1  creado: 2021-03-21  caduca: 2021-06-19  uso: E   
+[   total   ] (1). user3
+
+
+pub  1024R/AA5D08E6  creado: 2021-03-21  caduca: 2021-06-19  uso: SC  
+                     confianza: dudosa        validez: total
+sub  1024R/AD77605A  creado: 2021-03-21  caduca: 2021-06-19  uso: E   
+[   total   ] (1). user4
+
+pub  1024R/CD24F382  creado: 2021-03-21  caduca: 2021-06-19  uso: SC  
+                     confianza: dudosa        validez: total
+sub  1024R/89EB0901  creado: 2021-03-21  caduca: 2021-06-19  uso: E   
+[   total   ] (1). user5
+
+
+

@@ -1,0 +1,938 @@
+Oct 18 10:49:11 debian acpid: starting up with netlink and the input layer
+Oct 18 10:49:11 debian acpid: 1 rule loaded
+Oct 18 10:49:11 debian acpid: waiting for events: event logging is off
+Oct 18 10:49:38 debian init: Switching to runlevel: 0
+Oct 18 10:49:38 debian acpid: exiting
+Oct 18 10:56:29 debian acpid: starting up with netlink and the input layer
+Oct 18 10:56:29 debian acpid: 1 rule loaded
+Oct 18 10:56:29 debian acpid: waiting for events: event logging is off
+Oct 18 10:59:36 debian udevd[285]: specified group 'colord' unknown
+Oct 18 10:59:36 debian udevd[285]: specified group 'colord' unknown
+Oct 18 10:59:44 debian udevd[285]: specified group 'fuse' unknown
+Oct 18 10:59:44 debian udevd[285]: specified group 'colord' unknown
+Oct 18 10:59:58 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:00 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:00 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:02 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:02 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:05 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:05 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:05 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:05 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:05 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:05 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:10 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:10 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:10 debian udevd[285]: specified group 'colord' unknown
+Oct 18 11:00:10 debian udevd[285]: specified user 'usbmux' unknown
+Oct 18 11:00:19 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:19 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:19 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:19 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:19 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:32 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:32 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:33 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:33 debian dbus[15645]: [system] Reloaded configuration
+Oct 18 11:00:55 debian acpid: client connected from 21515[0:0]
+Oct 18 11:00:55 debian acpid: 1 client rule loaded
+Oct 18 11:00:56 debian dbus[15645]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 18 11:00:56 debian dbus[15645]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 18 11:00:56 debian polkitd[21635]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 18 11:00:56 debian dbus[15645]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 18 11:00:56 debian dbus[15645]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 18 11:00:57 debian dbus[15645]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 18 11:00:57 debian dbus[15645]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 18 11:01:18 debian dbus[15645]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 18 11:01:18 debian dbus[15645]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 18 11:01:24 debian acpid: client 21515[0:0] has disconnected
+Oct 18 11:01:43 debian init: Switching to runlevel: 6
+Oct 18 11:01:44 debian acpid: exiting
+Oct 18 11:02:02 debian acpid: starting up with netlink and the input layer
+Oct 18 11:02:02 debian acpid: 1 rule loaded
+Oct 18 11:02:02 debian acpid: waiting for events: event logging is off
+Oct 18 11:02:02 debian acpid: client connected from 2044[0:0]
+Oct 18 11:02:02 debian acpid: 1 client rule loaded
+Oct 18 11:02:08 debian dbus[1992]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 18 11:02:08 debian dbus[1992]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 18 11:02:08 debian polkitd[2214]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 18 11:02:08 debian dbus[1992]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 18 11:02:08 debian dbus[1992]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 18 11:02:09 debian dbus[1992]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 18 11:02:09 debian dbus[1992]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 18 11:02:22 debian dbus[1992]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 18 11:02:22 debian dbus[1992]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 18 11:02:25 debian acpid: client 2044[0:0] has disconnected
+Oct 18 11:02:25 debian acpid: client connected from 2044[0:0]
+Oct 18 11:02:25 debian acpid: 1 client rule loaded
+Oct 18 11:02:35 debian init: Switching to runlevel: 0
+Oct 18 11:02:36 debian acpid: client 2044[0:0] has disconnected
+Oct 18 11:02:36 debian acpid: client connected from 2044[0:0]
+Oct 18 11:02:36 debian acpid: 1 client rule loaded
+Oct 18 11:02:37 debian acpid: exiting
+Oct 18 12:21:21 debian acpid: starting up with netlink and the input layer
+Oct 18 12:21:22 debian acpid: 1 rule loaded
+Oct 18 12:21:22 debian acpid: waiting for events: event logging is off
+Oct 18 12:21:22 debian acpid: client connected from 1987[0:0]
+Oct 18 12:21:22 debian acpid: 1 client rule loaded
+Oct 18 12:21:22 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 18 12:21:22 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 18 12:21:22 debian dhclient: All rights reserved.
+Oct 18 12:21:22 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 18 12:21:22 debian dhclient: 
+Oct 18 12:21:22 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 18 12:21:22 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 18 12:21:22 debian dhclient: Sending on   Socket/fallback
+Oct 18 12:21:22 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct 18 12:21:22 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 18 12:21:22 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 18 12:21:22 debian dhclient: DHCPACK from 10.0.2.2
+Oct 18 12:21:22 debian dhclient: bound to 10.0.2.15 -- renewal in 37477 seconds.
+Oct 18 12:31:04 debian dbus[1931]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 18 12:31:04 debian dbus[1931]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 18 12:31:04 debian polkitd[2189]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 18 12:31:04 debian dbus[1931]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 18 12:31:04 debian dbus[1931]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 18 12:31:05 debian dbus[1931]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 18 12:31:05 debian dbus[1931]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 18 12:34:57 debian dbus[1931]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 18 12:34:57 debian dbus[1931]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 18 12:35:03 debian acpid: client 1987[0:0] has disconnected
+Oct 18 12:35:03 debian acpid: client connected from 1987[0:0]
+Oct 18 12:35:03 debian acpid: 1 client rule loaded
+Oct 18 12:35:09 debian init: Switching to runlevel: 0
+Oct 18 12:35:11 debian acpid: exiting
+Oct 20 11:08:45 debian acpid: starting up with netlink and the input layer
+Oct 20 11:08:45 debian acpid: 1 rule loaded
+Oct 20 11:08:45 debian acpid: waiting for events: event logging is off
+Oct 20 11:08:45 debian acpid: client connected from 2015[0:0]
+Oct 20 11:08:45 debian acpid: 1 client rule loaded
+Oct 20 11:08:49 debian dbus[1964]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 20 11:08:49 debian dbus[1964]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 20 11:08:49 debian polkitd[2190]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 20 11:08:49 debian dbus[1964]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 20 11:08:49 debian dbus[1964]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 20 11:08:50 debian dbus[1964]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 20 11:08:50 debian dbus[1964]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 20 11:10:38 debian dbus[1964]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 20 11:10:38 debian dbus[1964]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 20 11:16:20 debian acpid: client 2015[0:0] has disconnected
+Oct 20 11:16:20 debian acpid: client connected from 2015[0:0]
+Oct 20 11:16:20 debian acpid: 1 client rule loaded
+Oct 20 11:55:45 debian init: Switching to runlevel: 0
+Oct 20 11:55:45 debian acpid: client 2015[0:0] has disconnected
+Oct 20 11:55:45 debian acpid: client connected from 2015[0:0]
+Oct 20 11:55:45 debian acpid: 1 client rule loaded
+Oct 20 11:55:47 debian acpid: exiting
+Oct 21 15:05:53 debian acpid: starting up with netlink and the input layer
+Oct 21 15:05:53 debian acpid: 1 rule loaded
+Oct 21 15:05:53 debian acpid: waiting for events: event logging is off
+Oct 21 15:05:54 debian acpid: client connected from 2030[0:0]
+Oct 21 15:05:54 debian acpid: 1 client rule loaded
+Oct 21 15:05:54 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 21 15:05:54 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 21 15:05:54 debian dhclient: All rights reserved.
+Oct 21 15:05:54 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 21 15:05:54 debian dhclient: 
+Oct 21 15:05:54 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 21 15:05:54 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 21 15:05:54 debian dhclient: Sending on   Socket/fallback
+Oct 21 15:05:54 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct 21 15:05:54 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 21 15:05:54 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 21 15:05:54 debian dhclient: DHCPACK from 10.0.2.2
+Oct 21 15:05:54 debian dhclient: bound to 10.0.2.15 -- renewal in 41265 seconds.
+Oct 21 15:05:58 debian dbus[1955]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 21 15:05:58 debian dbus[1955]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 21 15:05:58 debian polkitd[2240]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 21 15:05:58 debian dbus[1955]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 21 15:05:58 debian dbus[1955]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 21 15:05:59 debian dbus[1955]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 21 15:05:59 debian dbus[1955]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 21 15:42:21 debian init: Trying to re-exec init
+Oct 21 17:57:20 debian dbus[1955]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 21 17:57:20 debian dbus[1955]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 21 17:58:07 debian init: Switching to runlevel: 0
+Oct 21 17:58:10 debian acpid: exiting
+Oct 21 17:58:33 debian acpid: starting up with netlink and the input layer
+Oct 21 17:58:33 debian acpid: 1 rule loaded
+Oct 21 17:58:33 debian acpid: waiting for events: event logging is off
+Oct 21 17:58:33 debian acpid: client connected from 2008[0:0]
+Oct 21 17:58:33 debian acpid: 1 client rule loaded
+Oct 21 17:58:34 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 21 17:58:34 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 21 17:58:34 debian dhclient: All rights reserved.
+Oct 21 17:58:34 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 21 17:58:34 debian dhclient: 
+Oct 21 17:58:34 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 21 17:58:34 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 21 17:58:34 debian dhclient: Sending on   Socket/fallback
+Oct 21 17:58:34 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct 21 17:58:34 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 21 17:58:34 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 21 17:58:34 debian dhclient: DHCPACK from 10.0.2.2
+Oct 21 17:58:34 debian dhclient: bound to 10.0.2.15 -- renewal in 34933 seconds.
+Oct 21 18:16:25 debian dbus[1936]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 21 18:16:25 debian dbus[1936]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 21 18:16:25 debian polkitd[2218]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 21 18:16:25 debian dbus[1936]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 21 18:16:25 debian dbus[1936]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 21 18:16:26 debian dbus[1936]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 21 18:16:26 debian dbus[1936]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 21 19:30:46 debian dbus[1936]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 21 19:30:46 debian dbus[1936]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 21 19:30:48 debian init: Switching to runlevel: 0
+Oct 21 19:30:48 debian acpid: client 2008[0:0] has disconnected
+Oct 21 19:30:48 debian acpid: client connected from 2008[0:0]
+Oct 21 19:30:48 debian acpid: 1 client rule loaded
+Oct 21 19:30:50 debian acpid: exiting
+Oct 22 13:45:36 debian acpid: starting up with netlink and the input layer
+Oct 22 13:45:36 debian acpid: 1 rule loaded
+Oct 22 13:45:36 debian acpid: waiting for events: event logging is off
+Oct 22 13:45:36 debian acpid: client connected from 2055[0:0]
+Oct 22 13:45:36 debian acpid: 1 client rule loaded
+Oct 22 13:45:48 debian dbus[1997]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 22 13:45:48 debian dbus[1997]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 22 13:45:48 debian polkitd[2229]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 22 13:45:48 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 22 13:45:48 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 22 13:45:49 debian dbus[1997]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 22 13:45:49 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 22 20:08:33 debian dbus[1997]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 22 20:08:33 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 22 20:08:36 debian init: Switching to runlevel: 0
+Oct 22 20:08:36 debian acpid: client 2055[0:0] has disconnected
+Oct 22 20:08:36 debian acpid: client connected from 2055[0:0]
+Oct 22 20:08:36 debian acpid: 1 client rule loaded
+Oct 22 20:08:38 debian acpid: exiting
+Oct 23 18:56:14 debian acpid: starting up with netlink and the input layer
+Oct 23 18:56:14 debian acpid: 1 rule loaded
+Oct 23 18:56:14 debian acpid: waiting for events: event logging is off
+Oct 23 18:56:15 debian acpid: client connected from 2061[0:0]
+Oct 23 18:56:15 debian acpid: 1 client rule loaded
+Oct 23 18:56:15 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 23 18:56:15 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 23 18:56:15 debian dhclient: All rights reserved.
+Oct 23 18:56:15 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 23 18:56:15 debian dhclient: 
+Oct 23 18:56:15 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 23 18:56:15 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 23 18:56:15 debian dhclient: Sending on   Socket/fallback
+Oct 23 18:56:15 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct 23 18:56:15 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 23 18:56:15 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 23 18:56:15 debian dhclient: DHCPACK from 10.0.2.2
+Oct 23 18:56:15 debian dhclient: bound to 10.0.2.15 -- renewal in 33707 seconds.
+Oct 23 18:56:28 debian dbus[1962]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 18:56:28 debian dbus[1962]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 18:56:28 debian polkitd[2266]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 18:56:28 debian dbus[1962]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 18:56:28 debian dbus[1962]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 18:56:29 debian dbus[1962]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 18:56:29 debian dbus[1962]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 18:56:44 debian dbus[1962]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 18:56:45 debian dbus[1962]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 18:56:52 debian init: Switching to runlevel: 0
+Oct 23 18:56:53 debian acpid: client 2061[0:0] has disconnected
+Oct 23 18:56:53 debian acpid: client connected from 2061[0:0]
+Oct 23 18:56:53 debian acpid: 1 client rule loaded
+Oct 23 18:56:55 debian acpid: exiting
+Oct 23 18:57:18 debian acpid: starting up with netlink and the input layer
+Oct 23 18:57:18 debian acpid: 1 rule loaded
+Oct 23 18:57:18 debian acpid: waiting for events: event logging is off
+Oct 23 18:57:19 debian acpid: client connected from 2052[0:0]
+Oct 23 18:57:19 debian acpid: 1 client rule loaded
+Oct 23 18:57:19 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 23 18:57:19 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 23 18:57:19 debian dhclient: All rights reserved.
+Oct 23 18:57:19 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 23 18:57:19 debian dhclient: 
+Oct 23 18:57:19 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 23 18:57:19 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 23 18:57:19 debian dhclient: Sending on   Socket/fallback
+Oct 23 18:57:19 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct 23 18:57:19 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 23 18:57:19 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 23 18:57:19 debian dhclient: DHCPACK from 10.0.2.2
+Oct 23 18:57:19 debian dhclient: bound to 10.0.2.15 -- renewal in 37498 seconds.
+Oct 23 18:57:35 debian dbus[1967]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 18:57:35 debian dbus[1967]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 18:57:35 debian polkitd[2258]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 18:57:35 debian dbus[1967]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 18:57:35 debian dbus[1967]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 18:57:36 debian dbus[1967]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 18:57:36 debian dbus[1967]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 19:02:01 debian dbus[1967]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 19:02:01 debian dbus[1967]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 19:02:03 debian init: Switching to runlevel: 0
+Oct 23 19:02:03 debian acpid: client 2052[0:0] has disconnected
+Oct 23 19:02:03 debian acpid: client connected from 2052[0:0]
+Oct 23 19:02:03 debian acpid: 1 client rule loaded
+Oct 23 19:02:05 debian acpid: exiting
+Oct 23 19:29:35 debian acpid: starting up with netlink and the input layer
+Oct 23 19:29:35 debian acpid: 1 rule loaded
+Oct 23 19:29:35 debian acpid: waiting for events: event logging is off
+Oct 23 19:29:36 debian acpid: client connected from 2089[0:0]
+Oct 23 19:29:36 debian acpid: 1 client rule loaded
+Oct 23 19:29:41 debian dbus[2006]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 19:29:41 debian dbus[2006]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 19:29:41 debian polkitd[2264]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 19:29:41 debian dbus[2006]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 19:29:41 debian dbus[2006]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 19:29:42 debian dbus[2006]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 19:29:42 debian dbus[2006]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 19:29:57 debian dbus[2006]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 19:29:57 debian dbus[2006]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 19:29:59 debian init: Switching to runlevel: 0
+Oct 23 19:30:00 debian acpid: client 2089[0:0] has disconnected
+Oct 23 19:30:00 debian acpid: client connected from 2089[0:0]
+Oct 23 19:30:00 debian acpid: 1 client rule loaded
+Oct 23 19:30:01 debian acpid: exiting
+Oct 23 19:30:20 debian acpid: starting up with netlink and the input layer
+Oct 23 19:30:20 debian acpid: 1 rule loaded
+Oct 23 19:30:20 debian acpid: waiting for events: event logging is off
+Oct 23 19:30:20 debian acpid: client connected from 2037[0:0]
+Oct 23 19:30:20 debian acpid: 1 client rule loaded
+Oct 23 19:30:21 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 23 19:30:21 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 23 19:30:21 debian dhclient: All rights reserved.
+Oct 23 19:30:21 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 23 19:30:21 debian dhclient: 
+Oct 23 19:30:21 debian dhclient: Listening on LPF/eth0/08:00:27:86:3c:e7
+Oct 23 19:30:21 debian dhclient: Sending on   LPF/eth0/08:00:27:86:3c:e7
+Oct 23 19:30:21 debian dhclient: Sending on   Socket/fallback
+Oct 23 19:30:21 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct 23 19:30:21 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 23 19:30:21 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 23 19:30:21 debian dhclient: DHCPACK from 10.0.2.2
+Oct 23 19:30:21 debian dhclient: bound to 10.0.2.15 -- renewal in 39855 seconds.
+Oct 23 19:30:46 debian dbus[1959]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 19:30:46 debian dbus[1959]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 19:30:46 debian polkitd[2243]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 19:30:46 debian dbus[1959]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 19:30:46 debian dbus[1959]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 19:30:47 debian dbus[1959]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 19:30:47 debian dbus[1959]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 20:12:05 debian dbus[1959]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 20:12:05 debian dbus[1959]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 20:12:09 debian init: Switching to runlevel: 0
+Oct 23 20:12:09 debian acpid: client 2037[0:0] has disconnected
+Oct 23 20:12:09 debian acpid: client connected from 2037[0:0]
+Oct 23 20:12:09 debian acpid: 1 client rule loaded
+Oct 23 20:12:11 debian acpid: exiting
+Oct 23 21:45:20 debian acpid: starting up with netlink and the input layer
+Oct 23 21:45:20 debian acpid: 1 rule loaded
+Oct 23 21:45:20 debian acpid: waiting for events: event logging is off
+Oct 23 21:45:20 debian acpid: client connected from 2082[0:0]
+Oct 23 21:45:20 debian acpid: 1 client rule loaded
+Oct 23 21:45:27 debian dbus[1995]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 21:45:27 debian dbus[1995]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 21:45:27 debian polkitd[2257]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 21:45:27 debian dbus[1995]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 21:45:27 debian dbus[1995]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 21:45:28 debian dbus[1995]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 21:45:28 debian dbus[1995]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 21:45:37 debian dbus[1995]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 21:45:37 debian dbus[1995]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 21:53:42 debian init: Switching to runlevel: 1
+Oct 23 21:58:30 debian acpid: starting up with netlink and the input layer
+Oct 23 21:58:30 debian acpid: 1 rule loaded
+Oct 23 21:58:30 debian acpid: waiting for events: event logging is off
+Oct 23 21:58:30 debian acpid: client connected from 2088[0:0]
+Oct 23 21:58:30 debian acpid: 1 client rule loaded
+Oct 23 21:58:35 debian dbus[2008]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 21:58:36 debian dbus[2008]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 21:58:36 debian polkitd[2264]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 21:58:36 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 21:58:36 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 21:58:36 debian dbus[2008]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 21:58:36 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 22:07:42 debian init: Switching to runlevel: 1
+Oct 23 22:15:16 debian acpid: starting up with netlink and the input layer
+Oct 23 22:15:16 debian acpid: 1 rule loaded
+Oct 23 22:15:16 debian acpid: waiting for events: event logging is off
+Oct 23 22:15:16 debian acpid: client connected from 2061[0:0]
+Oct 23 22:15:16 debian acpid: 1 client rule loaded
+Oct 23 22:15:17 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 23 22:15:17 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 23 22:15:17 debian dhclient: All rights reserved.
+Oct 23 22:15:17 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 23 22:15:17 debian dhclient: 
+Oct 23 22:15:17 debian dhclient: Listening on LPF/eth0/08:00:27:5f:58:8b
+Oct 23 22:15:17 debian dhclient: Sending on   LPF/eth0/08:00:27:5f:58:8b
+Oct 23 22:15:17 debian dhclient: Sending on   Socket/fallback
+Oct 23 22:15:17 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 23 22:15:17 debian dhclient: DHCPACK from 10.0.2.2
+Oct 23 22:15:17 debian dhclient: bound to 10.0.2.15 -- renewal in 38056 seconds.
+Oct 23 22:15:21 debian dbus[1969]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 22:15:21 debian dbus[1969]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 22:15:21 debian polkitd[2269]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 22:15:21 debian dbus[1969]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 22:15:21 debian dbus[1969]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 22:15:22 debian dbus[1969]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 22:15:22 debian dbus[1969]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 22:18:10 debian dbus[1969]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 22:18:10 debian dbus[1969]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 22:18:20 debian acpid: client 2061[0:0] has disconnected
+Oct 23 22:18:20 debian acpid: client connected from 2061[0:0]
+Oct 23 22:18:20 debian acpid: 1 client rule loaded
+Oct 23 22:27:03 debian init: Switching to runlevel: 0
+Oct 23 22:27:04 debian acpid: client 2061[0:0] has disconnected
+Oct 23 22:27:04 debian acpid: client connected from 2061[0:0]
+Oct 23 22:27:04 debian acpid: 1 client rule loaded
+Oct 23 22:27:05 debian acpid: exiting
+Oct 23 22:53:30 debian acpid: starting up with netlink and the input layer
+Oct 23 22:53:30 debian acpid: 1 rule loaded
+Oct 23 22:53:30 debian acpid: waiting for events: event logging is off
+Oct 23 22:53:30 debian acpid: client connected from 2060[0:0]
+Oct 23 22:53:30 debian acpid: 1 client rule loaded
+Oct 23 22:53:40 debian dbus[2008]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 23 22:53:40 debian dbus[2008]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 23 22:53:40 debian polkitd[2240]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 23 22:53:40 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 23 22:53:40 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 23 22:53:41 debian dbus[2008]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 23 22:53:41 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 23 22:57:42 debian dbus[2008]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 23 22:57:42 debian dbus[2008]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 23 22:57:44 debian init: Switching to runlevel: 0
+Oct 23 22:57:44 debian acpid: client 2060[0:0] has disconnected
+Oct 23 22:57:44 debian acpid: client connected from 2060[0:0]
+Oct 23 22:57:44 debian acpid: 1 client rule loaded
+Oct 23 22:57:46 debian acpid: exiting
+Oct 24 08:38:53 debian acpid: starting up with netlink and the input layer
+Oct 24 08:38:53 debian acpid: 1 rule loaded
+Oct 24 08:38:53 debian acpid: waiting for events: event logging is off
+Oct 24 08:38:53 debian acpid: client connected from 2032[0:0]
+Oct 24 08:38:53 debian acpid: 1 client rule loaded
+Oct 24 08:38:54 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 24 08:38:54 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 24 08:38:54 debian dhclient: All rights reserved.
+Oct 24 08:38:54 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 24 08:38:54 debian dhclient: 
+Oct 24 08:38:54 debian dhclient: Listening on LPF/eth0/08:00:27:5f:58:8b
+Oct 24 08:38:54 debian dhclient: Sending on   LPF/eth0/08:00:27:5f:58:8b
+Oct 24 08:38:54 debian dhclient: Sending on   Socket/fallback
+Oct 24 08:38:54 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct 24 08:38:54 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 24 08:38:54 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 24 08:38:54 debian dhclient: DHCPACK from 10.0.2.2
+Oct 24 08:38:54 debian dhclient: bound to 10.0.2.15 -- renewal in 42149 seconds.
+Oct 24 08:38:58 debian dbus[1988]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 24 08:38:58 debian dbus[1988]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 24 08:38:58 debian polkitd[2242]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 24 08:38:58 debian dbus[1988]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 24 08:38:58 debian dbus[1988]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 24 08:38:59 debian dbus[1988]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 24 08:38:59 debian dbus[1988]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 24 08:43:52 debian dbus[1988]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 24 08:43:53 debian dbus[1988]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 24 08:43:55 debian init: Switching to runlevel: 6
+Oct 24 08:43:55 debian acpid: client 2032[0:0] has disconnected
+Oct 24 08:43:55 debian acpid: client connected from 2032[0:0]
+Oct 24 08:43:55 debian acpid: 1 client rule loaded
+Oct 24 08:43:57 debian acpid: exiting
+Oct 24 08:44:14 debian acpid: starting up with netlink and the input layer
+Oct 24 08:44:14 debian acpid: 1 rule loaded
+Oct 24 08:44:14 debian acpid: waiting for events: event logging is off
+Oct 24 08:44:14 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 24 08:44:14 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 24 08:44:14 debian dhclient: All rights reserved.
+Oct 24 08:44:14 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 24 08:44:14 debian dhclient: 
+Oct 24 08:44:14 debian dhclient: Listening on LPF/eth0/08:00:27:5f:58:8b
+Oct 24 08:44:14 debian dhclient: Sending on   LPF/eth0/08:00:27:5f:58:8b
+Oct 24 08:44:14 debian dhclient: Sending on   Socket/fallback
+Oct 24 08:44:14 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct 24 08:44:14 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 24 08:44:14 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 24 08:44:14 debian dhclient: DHCPACK from 10.0.2.2
+Oct 24 08:44:14 debian dhclient: bound to 10.0.2.15 -- renewal in 40721 seconds.
+Oct 24 08:44:14 debian acpid: client connected from 2069[0:0]
+Oct 24 08:44:14 debian acpid: 1 client rule loaded
+Oct 24 09:31:15 debian dbus[1966]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 24 09:31:16 debian dbus[1966]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 24 09:31:16 debian polkitd[2274]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 24 09:31:16 debian dbus[1966]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 24 09:31:16 debian dbus[1966]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 24 09:31:16 debian dbus[1966]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 24 09:31:16 debian dbus[1966]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 24 09:32:22 debian dbus[1966]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 24 09:32:22 debian dbus[1966]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 24 09:32:24 debian init: Switching to runlevel: 0
+Oct 24 09:32:24 debian acpid: client 2069[0:0] has disconnected
+Oct 24 09:32:24 debian acpid: client connected from 2069[0:0]
+Oct 24 09:32:24 debian acpid: 1 client rule loaded
+Oct 24 09:32:26 debian acpid: exiting
+Oct 24 11:15:54 debian acpid: starting up with netlink and the input layer
+Oct 24 11:15:54 debian acpid: 1 rule loaded
+Oct 24 11:15:54 debian acpid: waiting for events: event logging is off
+Oct 24 11:15:54 debian acpid: client connected from 2068[0:0]
+Oct 24 11:15:54 debian acpid: 1 client rule loaded
+Oct 24 11:15:58 debian dbus[1994]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 24 11:15:58 debian dbus[1994]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 24 11:15:58 debian polkitd[2241]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 24 11:15:58 debian dbus[1994]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 24 11:15:58 debian dbus[1994]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 24 11:15:59 debian dbus[1994]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 24 11:15:59 debian dbus[1994]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 24 11:25:43 debian dbus[1994]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 24 11:25:43 debian dbus[1994]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 24 11:25:44 debian init: Switching to runlevel: 6
+Oct 24 11:25:44 debian acpid: client 2068[0:0] has disconnected
+Oct 24 11:25:44 debian acpid: client connected from 2068[0:0]
+Oct 24 11:25:44 debian acpid: 1 client rule loaded
+Oct 24 11:25:46 debian acpid: exiting
+Oct 24 11:26:00 debian acpid: starting up with netlink and the input layer
+Oct 24 11:26:00 debian acpid: 1 rule loaded
+Oct 24 11:26:00 debian acpid: waiting for events: event logging is off
+Oct 24 11:26:01 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Oct 24 11:26:01 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Oct 24 11:26:01 debian dhclient: All rights reserved.
+Oct 24 11:26:01 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Oct 24 11:26:01 debian dhclient: 
+Oct 24 11:26:01 debian dhclient: Listening on LPF/eth0/08:00:27:5f:58:8b
+Oct 24 11:26:01 debian dhclient: Sending on   LPF/eth0/08:00:27:5f:58:8b
+Oct 24 11:26:01 debian dhclient: Sending on   Socket/fallback
+Oct 24 11:26:01 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct 24 11:26:01 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Oct 24 11:26:01 debian dhclient: DHCPOFFER from 10.0.2.2
+Oct 24 11:26:01 debian dhclient: DHCPACK from 10.0.2.2
+Oct 24 11:26:01 debian acpid: client connected from 2011[0:0]
+Oct 24 11:26:01 debian acpid: 1 client rule loaded
+Oct 24 11:26:01 debian dhclient: bound to 10.0.2.15 -- renewal in 38784 seconds.
+Oct 24 11:27:48 debian dbus[1954]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 24 11:27:48 debian dbus[1954]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 24 11:27:48 debian polkitd[2220]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 24 11:27:48 debian dbus[1954]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 24 11:27:48 debian dbus[1954]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Oct 24 11:27:49 debian dbus[1954]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Oct 24 11:27:49 debian dbus[1954]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Oct 24 11:29:18 debian dbus[1954]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 24 11:29:18 debian dbus[1954]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 24 11:29:19 debian init: Switching to runlevel: 0
+Oct 24 11:29:20 debian acpid: client 2011[0:0] has disconnected
+Oct 24 11:29:20 debian acpid: client connected from 2011[0:0]
+Oct 24 11:29:20 debian acpid: 1 client rule loaded
+Oct 24 11:29:21 debian acpid: exiting
+Nov 26 12:12:22 debian acpid: starting up with netlink and the input layer
+Nov 26 12:12:22 debian acpid: 1 rule loaded
+Nov 26 12:12:22 debian acpid: waiting for events: event logging is off
+Nov 26 12:12:22 debian acpid: client connected from 2057[0:0]
+Nov 26 12:12:22 debian acpid: 1 client rule loaded
+Nov 26 12:12:26 debian dbus[1999]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Nov 26 12:12:26 debian dbus[1999]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Nov 26 12:12:26 debian polkitd[2231]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Nov 26 12:12:26 debian dbus[1999]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Nov 26 12:12:26 debian dbus[1999]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Nov 26 12:12:27 debian dbus[1999]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Nov 26 12:12:27 debian dbus[1999]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Nov 26 12:12:54 debian dbus[1999]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Nov 26 12:12:54 debian dbus[1999]: [system] Successfully activated service 'org.freedesktop.UPower'
+Nov 26 12:14:09 debian init: Switching to runlevel: 0
+Nov 26 12:14:09 debian acpid: client 2057[0:0] has disconnected
+Nov 26 12:14:09 debian acpid: client connected from 2057[0:0]
+Nov 26 12:14:09 debian acpid: 1 client rule loaded
+Nov 26 12:14:11 debian acpid: exiting
+Jan 18 10:26:27 debian acpid: starting up with netlink and the input layer
+Jan 18 10:26:27 debian acpid: 1 rule loaded
+Jan 18 10:26:27 debian acpid: waiting for events: event logging is off
+Jan 18 10:26:27 debian acpid: client connected from 2055[0:0]
+Jan 18 10:26:27 debian acpid: 1 client rule loaded
+Jan 18 10:26:28 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Jan 18 10:26:28 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Jan 18 10:26:28 debian dhclient: All rights reserved.
+Jan 18 10:26:28 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 18 10:26:28 debian dhclient: 
+Jan 18 10:26:28 debian dhclient: Listening on LPF/eth0/08:00:27:be:6b:91
+Jan 18 10:26:28 debian dhclient: Sending on   LPF/eth0/08:00:27:be:6b:91
+Jan 18 10:26:28 debian dhclient: Sending on   Socket/fallback
+Jan 18 10:26:28 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Jan 18 10:26:28 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Jan 18 10:26:28 debian dhclient: DHCPOFFER from 10.0.2.2
+Jan 18 10:26:28 debian dhclient: DHCPACK from 10.0.2.2
+Jan 18 10:26:28 debian dhclient: bound to 10.0.2.15 -- renewal in 38155 seconds.
+Jan 18 10:26:38 debian dbus[1993]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Jan 18 10:26:39 debian dbus[1993]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Jan 18 10:26:39 debian polkitd[2257]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 18 10:26:39 debian dbus[1993]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jan 18 10:26:39 debian dbus[1993]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Jan 18 10:26:40 debian dbus[1993]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Jan 18 10:26:40 debian dbus[1993]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Jan 18 10:33:22 debian dbus[1993]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Jan 18 10:33:22 debian dbus[1993]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jan 18 10:33:24 debian acpid: client 2055[0:0] has disconnected
+Jan 18 10:33:24 debian acpid: client connected from 2055[0:0]
+Jan 18 10:33:24 debian acpid: 1 client rule loaded
+Jan 18 10:33:24 debian acpid: client 2055[0:0] has disconnected
+Jan 18 10:33:24 debian acpid: client connected from 2600[0:0]
+Jan 18 10:33:24 debian acpid: 1 client rule loaded
+Jan 18 10:33:35 debian init: Switching to runlevel: 0
+Jan 18 10:33:37 debian acpid: exiting
+Sep 30 16:50:45 debian acpid: starting up with netlink and the input layer
+Sep 30 16:50:45 debian acpid: 1 rule loaded
+Sep 30 16:50:45 debian acpid: waiting for events: event logging is off
+Sep 30 16:50:45 debian acpid: client connected from 2092[0:0]
+Sep 30 16:50:45 debian acpid: 1 client rule loaded
+Sep 30 16:50:53 debian dbus[2061]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Sep 30 16:50:53 debian dbus[2061]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Sep 30 16:50:53 debian polkitd[2275]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Sep 30 16:50:53 debian dbus[2061]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Sep 30 16:50:53 debian dbus[2061]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Sep 30 16:50:54 debian dbus[2061]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Sep 30 16:50:54 debian dbus[2061]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Sep 30 17:02:48 debian init: Trying to re-exec init
+Sep 30 17:03:44 debian dbus[2061]: [system] Reloaded configuration
+Sep 30 17:06:17 debian dbus[2061]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Sep 30 17:06:17 debian dbus[2061]: [system] Successfully activated service 'org.freedesktop.UPower'
+Sep 30 17:06:19 debian init: Switching to runlevel: 0
+Sep 30 17:06:19 debian acpid: client 2092[0:0] has disconnected
+Sep 30 17:06:19 debian acpid: client connected from 2092[0:0]
+Sep 30 17:06:19 debian acpid: 1 client rule loaded
+Sep 30 17:06:21 debian acpid: exiting
+Jan 23 11:11:47 debian acpid: starting up with netlink and the input layer
+Jan 23 11:11:47 debian acpid: 1 rule loaded
+Jan 23 11:11:47 debian acpid: waiting for events: event logging is off
+Jan 23 11:11:47 debian acpid: client connected from 2071[0:0]
+Jan 23 11:11:47 debian acpid: 1 client rule loaded
+Jan 23 11:11:52 debian dbus[1997]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Jan 23 11:11:52 debian dbus[1997]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Jan 23 11:11:52 debian polkitd[2254]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 23 11:11:52 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jan 23 11:11:52 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Jan 23 11:11:53 debian dbus[1997]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Jan 23 11:11:53 debian dbus[1997]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Jan 23 11:16:19 debian init: Switching to runlevel: 6
+Jan 23 11:16:21 debian acpid: exiting
+Jan 23 11:16:34 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+Jan 23 11:16:34 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Jan 23 11:16:34 debian dhclient: All rights reserved.
+Jan 23 11:16:34 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 11:16:34 debian dhclient: 
+Jan 23 11:16:34 debian dhclient: Listening on LPF/eth0/08:00:27:77:b5:cb
+Jan 23 11:16:34 debian dhclient: Sending on   LPF/eth0/08:00:27:77:b5:cb
+Jan 23 11:16:34 debian dhclient: Sending on   Socket/fallback
+Jan 23 11:16:34 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Jan 23 11:16:34 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Jan 23 11:16:34 debian dhclient: DHCPOFFER from 10.0.2.2
+Jan 23 11:16:34 debian dhclient: DHCPACK from 10.0.2.2
+Jan 23 11:16:34 debian dhclient: bound to 10.0.2.15 -- renewal in 41248 seconds.
+Jan 23 11:16:34 debian acpid: starting up with netlink and the input layer
+Jan 23 11:16:34 debian acpid: 1 rule loaded
+Jan 23 11:16:34 debian acpid: waiting for events: event logging is off
+Jan 23 11:16:34 debian acpid: client connected from 2051[0:0]
+Jan 23 11:16:34 debian acpid: 1 client rule loaded
+Jan 23 11:16:39 debian dbus[2099]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Jan 23 11:16:39 debian dbus[2099]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Jan 23 11:16:39 debian polkitd[2239]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 23 11:16:39 debian dbus[2099]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jan 23 11:16:39 debian dbus[2099]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Jan 23 11:16:43 debian dbus[2099]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Jan 23 11:16:43 debian dbus[2099]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Jan 23 11:18:55 debian init: Switching to runlevel: 0
+Jan 23 11:18:57 debian acpid: exiting
+May  4 12:27:15 debian acpid: starting up with netlink and the input layer
+May  4 12:27:15 debian acpid: 1 rule loaded
+May  4 12:27:15 debian acpid: waiting for events: event logging is off
+May  4 12:27:15 debian acpid: client connected from 2084[0:0]
+May  4 12:27:15 debian acpid: 1 client rule loaded
+May  4 12:27:20 debian dbus[2130]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+May  4 12:27:20 debian dbus[2130]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+May  4 12:27:20 debian polkitd[2270]: started daemon version 0.105 using authority implementation `local' version `0.105'
+May  4 12:27:20 debian dbus[2130]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+May  4 12:27:20 debian dbus[2130]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+May  4 12:29:13 debian dbus[2130]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+May  4 12:29:13 debian dbus[2130]: [system] Successfully activated service 'org.freedesktop.UDisks'
+May 11 14:09:33 debian acpid: starting up with netlink and the input layer
+May 11 14:09:33 debian acpid: 1 rule loaded
+May 11 14:09:33 debian acpid: waiting for events: event logging is off
+May 11 14:09:33 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+May 11 14:09:33 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+May 11 14:09:33 debian dhclient: All rights reserved.
+May 11 14:09:33 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+May 11 14:09:33 debian dhclient: 
+May 11 14:09:33 debian dhclient: Listening on LPF/eth0/08:00:27:77:b5:cb
+May 11 14:09:33 debian dhclient: Sending on   LPF/eth0/08:00:27:77:b5:cb
+May 11 14:09:33 debian dhclient: Sending on   Socket/fallback
+May 11 14:09:33 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+May 11 14:09:33 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+May 11 14:09:33 debian dhclient: DHCPOFFER from 10.0.2.2
+May 11 14:09:33 debian dhclient: DHCPACK from 10.0.2.2
+May 11 14:09:33 debian dhclient: bound to 10.0.2.15 -- renewal in 38376 seconds.
+May 11 14:09:33 debian acpid: client connected from 2068[0:0]
+May 11 14:09:33 debian acpid: 1 client rule loaded
+May 11 14:09:38 debian dbus[2136]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+May 11 14:09:38 debian dbus[2136]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+May 11 14:09:38 debian polkitd[2275]: started daemon version 0.105 using authority implementation `local' version `0.105'
+May 11 14:09:38 debian dbus[2136]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+May 11 14:09:38 debian dbus[2136]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+May 11 14:09:43 debian dbus[2136]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+May 11 14:09:43 debian dbus[2136]: [system] Successfully activated service 'org.freedesktop.UDisks'
+May 18 21:32:21 debian acpid: starting up with netlink and the input layer
+May 18 21:32:21 debian acpid: 1 rule loaded
+May 18 21:32:21 debian acpid: waiting for events: event logging is off
+May 18 21:32:21 debian acpid: client connected from 2140[0:0]
+May 18 21:32:21 debian acpid: 1 client rule loaded
+May 18 21:32:26 debian dbus[2187]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+May 18 21:32:26 debian dbus[2187]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+May 18 21:32:26 debian polkitd[2326]: started daemon version 0.105 using authority implementation `local' version `0.105'
+May 18 21:32:26 debian dbus[2187]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+May 18 21:32:26 debian dbus[2187]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+May 18 21:32:39 debian dbus[2187]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+May 18 21:32:39 debian dbus[2187]: [system] Successfully activated service 'org.freedesktop.UDisks'
+May 18 21:34:16 debian charon: 00[DMN] Starting IKEv2 charon daemon (strongSwan 4.5.2)
+May 18 21:34:16 debian charon: 00[KNL] listening on interfaces:
+May 18 21:34:16 debian charon: 00[KNL]   eth0
+May 18 21:34:16 debian charon: 00[KNL]     10.0.2.15
+May 18 21:34:16 debian charon: 00[KNL]     fe80::a00:27ff:fe4c:398c
+May 18 21:34:16 debian charon: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+May 18 21:34:16 debian charon: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+May 18 21:34:16 debian charon: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+May 18 21:34:16 debian charon: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+May 18 21:34:16 debian charon: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+May 18 21:34:16 debian charon: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+May 18 21:34:16 debian charon: 00[CFG] expanding file expression '/var/lib/strongswan/ipsec.secrets.inc' failed
+May 18 21:34:16 debian charon: 00[CFG] sql plugin: database URI not set
+May 18 21:34:16 debian charon: 00[LIB] plugin 'sql': failed to load - sql_plugin_create returned NULL
+May 18 21:34:16 debian charon: 00[CFG] loaded 0 RADIUS server configurations
+May 18 21:34:16 debian charon: 00[LIB] plugin 'medsrv' failed to load: /usr/lib/ipsec/plugins/libstrongswan-medsrv.so: cannot open shared object file: No such file or directory
+May 18 21:34:16 debian charon: 00[CFG] mediation client database URI not defined, skipped
+May 18 21:34:16 debian charon: 00[LIB] plugin 'medcli': failed to load - medcli_plugin_create returned NULL
+May 18 21:34:16 debian charon: 00[LIB] plugin 'nm' failed to load: /usr/lib/ipsec/plugins/libstrongswan-nm.so: cannot open shared object file: No such file or directory
+May 18 21:34:16 debian charon: 00[CFG] HA config misses local/remote address
+May 18 21:34:16 debian charon: 00[LIB] plugin 'ha': failed to load - ha_plugin_create returned NULL
+May 18 21:34:16 debian charon: 00[DMN] loaded plugins: test-vectors curl ldap aes des sha1 sha2 md5 random x509 revocation constraints pubkey pkcs1 pgp pem openssl fips-prf gmp agent pkcs11 xcbc hmac ctr ccm gcm attr kernel-netlink resolve socket-raw farp stroke updown eap-identity eap-aka eap-md5 eap-gtc eap-mschapv2 eap-radius eap-tls eap-ttls eap-tnc dhcp led addrblock 
+May 18 21:34:16 debian charon: 00[JOB] spawning 16 worker threads
+May 18 21:34:20 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+May 18 21:34:20 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+May 18 21:34:20 debian dhclient: All rights reserved.
+May 18 21:34:20 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+May 18 21:34:20 debian dhclient: 
+May 18 21:34:20 debian dhclient: Listening on LPF/eth0/08:00:27:4c:39:8c
+May 18 21:34:20 debian dhclient: Sending on   LPF/eth0/08:00:27:4c:39:8c
+May 18 21:34:20 debian dhclient: Sending on   Socket/fallback
+May 18 21:34:20 debian dhclient: DHCPRELEASE on eth0 to 10.0.2.2 port 67
+May 18 21:34:20 debian charon: 12[KNL] 10.0.2.15 disappeared from eth0
+May 18 21:34:21 debian charon: 12[KNL] interface eth0 deactivated
+May 18 21:34:21 debian charon: 12[KNL] fe80::a00:27ff:fe4c:398c disappeared from eth0
+May 18 21:34:36 debian charon: 12[KNL] interface eth1 activated
+May 18 21:34:38 debian charon: 12[KNL] fe80::a00:27ff:fe4e:308c appeared on eth1
+May 18 21:34:54 debian charon: 12[KNL] interface eth2 activated
+May 18 21:34:55 debian charon: 12[KNL] fe80::a00:27ff:fe5a:63c8 appeared on eth2
+May 18 21:35:05 debian charon: 12[KNL] 192.168.1.2 appeared on eth1
+May 18 21:35:43 debian charon: 12[KNL] 1.1.1.1 appeared on eth2
+May 18 22:10:18 debian charon: 00[DMN] Starting IKEv2 charon daemon (strongSwan 4.5.2)
+May 18 22:10:18 debian charon: 00[KNL] listening on interfaces:
+May 18 22:10:18 debian charon: 00[KNL]   eth0
+May 18 22:10:18 debian charon: 00[KNL]     10.0.2.15
+May 18 22:10:18 debian charon: 00[KNL]     fe80::a00:27ff:fe4c:398c
+May 18 22:10:18 debian charon: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+May 18 22:10:18 debian charon: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+May 18 22:10:18 debian charon: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+May 18 22:10:18 debian charon: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+May 18 22:10:18 debian charon: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+May 18 22:10:18 debian charon: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+May 18 22:10:18 debian charon: 00[CFG] expanding file expression '/var/lib/strongswan/ipsec.secrets.inc' failed
+May 18 22:10:18 debian charon: 00[CFG] sql plugin: database URI not set
+May 18 22:10:18 debian charon: 00[LIB] plugin 'sql': failed to load - sql_plugin_create returned NULL
+May 18 22:10:18 debian charon: 00[CFG] loaded 0 RADIUS server configurations
+May 18 22:10:18 debian charon: 00[LIB] plugin 'medsrv' failed to load: /usr/lib/ipsec/plugins/libstrongswan-medsrv.so: cannot open shared object file: No such file or directory
+May 18 22:10:18 debian charon: 00[CFG] mediation client database URI not defined, skipped
+May 18 22:10:18 debian charon: 00[LIB] plugin 'medcli': failed to load - medcli_plugin_create returned NULL
+May 18 22:10:18 debian charon: 00[LIB] plugin 'nm' failed to load: /usr/lib/ipsec/plugins/libstrongswan-nm.so: cannot open shared object file: No such file or directory
+May 18 22:10:18 debian charon: 00[CFG] HA config misses local/remote address
+May 18 22:10:18 debian charon: 00[LIB] plugin 'ha': failed to load - ha_plugin_create returned NULL
+May 18 22:10:18 debian charon: 00[DMN] loaded plugins: test-vectors curl ldap aes des sha1 sha2 md5 random x509 revocation constraints pubkey pkcs1 pgp pem openssl fips-prf gmp agent pkcs11 xcbc hmac ctr ccm gcm attr kernel-netlink resolve socket-raw farp stroke updown eap-identity eap-aka eap-md5 eap-gtc eap-mschapv2 eap-radius eap-tls eap-ttls eap-tnc dhcp led addrblock 
+May 18 22:10:18 debian charon: 00[JOB] spawning 16 worker threads
+May 18 22:10:18 debian acpid: starting up with netlink and the input layer
+May 18 22:10:18 debian acpid: 1 rule loaded
+May 18 22:10:18 debian acpid: waiting for events: event logging is off
+May 18 22:10:18 debian acpid: client connected from 2407[0:0]
+May 18 22:10:18 debian acpid: 1 client rule loaded
+May 18 22:10:23 debian dbus[2495]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+May 18 22:10:23 debian dbus[2495]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+May 18 22:10:23 debian polkitd[2664]: started daemon version 0.105 using authority implementation `local' version `0.105'
+May 18 22:10:23 debian dbus[2495]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+May 18 22:10:23 debian dbus[2495]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+May 18 22:10:36 debian dbus[2495]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+May 18 22:10:36 debian dbus[2495]: [system] Successfully activated service 'org.freedesktop.UDisks'
+May 18 22:11:21 debian dhclient: Internet Systems Consortium DHCP Client 4.2.2
+May 18 22:11:21 debian dhclient: Copyright 2004-2011 Internet Systems Consortium.
+May 18 22:11:21 debian dhclient: All rights reserved.
+May 18 22:11:21 debian dhclient: For info, please visit https://www.isc.org/software/dhcp/
+May 18 22:11:21 debian dhclient: 
+May 18 22:11:21 debian dhclient: Listening on LPF/eth0/08:00:27:4c:39:8c
+May 18 22:11:21 debian dhclient: Sending on   LPF/eth0/08:00:27:4c:39:8c
+May 18 22:11:21 debian dhclient: Sending on   Socket/fallback
+May 18 22:11:21 debian dhclient: DHCPRELEASE on eth0 to 10.0.2.2 port 67
+May 18 22:11:21 debian charon: 08[KNL] 10.0.2.15 disappeared from eth0
+May 18 22:11:21 debian charon: 08[KNL] interface eth0 deactivated
+May 18 22:11:21 debian charon: 08[KNL] fe80::a00:27ff:fe4c:398c disappeared from eth0
+May 18 22:11:21 debian charon: 08[KNL] interface eth1 activated
+May 18 22:11:21 debian charon: 08[KNL] interface eth2 activated
+May 18 22:11:21 debian charon: 08[KNL] 192.168.1.2 appeared on eth1
+May 18 22:11:21 debian charon: 08[KNL] 1.1.1.1 appeared on eth2
+May 18 22:11:23 debian charon: 08[KNL] fe80::a00:27ff:fe4e:308c appeared on eth1
+May 18 22:11:23 debian charon: 08[KNL] fe80::a00:27ff:fe5a:63c8 appeared on eth2
+May 19 16:37:12 debian charon: 00[DMN] signal of type SIGINT received. Shutting down
+May 19 16:37:15 debian charon: 00[DMN] Starting IKEv2 charon daemon (strongSwan 4.5.2)
+May 19 16:37:15 debian charon: 00[KNL] listening on interfaces:
+May 19 16:37:15 debian charon: 00[KNL]   eth1
+May 19 16:37:15 debian charon: 00[KNL]     192.168.1.2
+May 19 16:37:15 debian charon: 00[KNL]     fe80::a00:27ff:fe4e:308c
+May 19 16:37:15 debian charon: 00[KNL]   eth2
+May 19 16:37:15 debian charon: 00[KNL]     1.1.1.1
+May 19 16:37:15 debian charon: 00[KNL]     fe80::a00:27ff:fe5a:63c8
+May 19 16:37:15 debian charon: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+May 19 16:37:15 debian charon: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+May 19 16:37:15 debian charon: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+May 19 16:37:15 debian charon: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+May 19 16:37:15 debian charon: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+May 19 16:37:15 debian charon: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+May 19 16:37:15 debian charon: 00[CFG] expanding file expression '/var/lib/strongswan/ipsec.secrets.inc' failed
+May 19 16:37:15 debian charon: 00[CFG]   loaded IKE secret for %any
+May 19 16:37:15 debian charon: 00[CFG] sql plugin: database URI not set
+May 19 16:37:15 debian charon: 00[LIB] plugin 'sql': failed to load - sql_plugin_create returned NULL
+May 19 16:37:15 debian charon: 00[CFG] loaded 0 RADIUS server configurations
+May 19 16:37:15 debian charon: 00[LIB] plugin 'medsrv' failed to load: /usr/lib/ipsec/plugins/libstrongswan-medsrv.so: cannot open shared object file: No such file or directory
+May 19 16:37:15 debian charon: 00[CFG] mediation client database URI not defined, skipped
+May 19 16:37:15 debian charon: 00[LIB] plugin 'medcli': failed to load - medcli_plugin_create returned NULL
+May 19 16:37:15 debian charon: 00[LIB] plugin 'nm' failed to load: /usr/lib/ipsec/plugins/libstrongswan-nm.so: cannot open shared object file: No such file or directory
+May 19 16:37:15 debian charon: 00[CFG] HA config misses local/remote address
+May 19 16:37:15 debian charon: 00[LIB] plugin 'ha': failed to load - ha_plugin_create returned NULL
+May 19 16:37:15 debian charon: 00[DMN] loaded plugins: test-vectors curl ldap aes des sha1 sha2 md5 random x509 revocation constraints pubkey pkcs1 pgp pem openssl fips-prf gmp agent pkcs11 xcbc hmac ctr ccm gcm attr kernel-netlink resolve socket-raw farp stroke updown eap-identity eap-aka eap-md5 eap-gtc eap-mschapv2 eap-radius eap-tls eap-ttls eap-tnc dhcp led addrblock 
+May 19 16:37:15 debian charon: 00[JOB] spawning 16 worker threads
+May 19 16:37:15 debian charon: 10[CFG] received stroke: add connection 'secret'
+May 19 16:37:15 debian charon: 10[CFG] added configuration 'secret'
+May 19 16:37:15 debian charon: 10[CFG] received stroke: initiate 'secret'
+May 19 16:37:15 debian charon: 10[IKE] initiating IKE_SA secret[1] to 2.2.2.2
+May 19 16:37:15 debian charon: 10[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 16:37:15 debian charon: 10[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 16:37:15 debian charon: 04[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 16:37:15 debian charon: 04[ENC] parsed IKE_SA_INIT response 0 [ N(NO_PROP) ]
+May 19 16:37:15 debian charon: 04[IKE] received NO_PROPOSAL_CHOSEN notify error
+May 19 16:37:31 debian charon: 02[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 16:37:31 debian charon: 02[ENC] parsed IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 16:37:31 debian charon: 02[IKE] 2.2.2.2 is initiating an IKE_SA
+May 19 16:37:31 debian charon: 02[ENC] generating IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(MULT_AUTH) ]
+May 19 16:37:31 debian charon: 02[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 16:37:31 debian charon: 01[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 16:37:31 debian charon: 01[ENC] parsed IKE_AUTH request 1 [ IDi N(INIT_CONTACT) IDr AUTH SA TSi TSr N(MOBIKE_SUP) N(ADD_4_ADDR) N(MULT_AUTH) N(EAP_ONLY) ]
+May 19 16:37:31 debian charon: 01[CFG] looking for peer configs matching 1.1.1.1[1.1.1.1]...2.2.2.2[2.2.2.2]
+May 19 16:37:31 debian charon: 01[CFG] selected peer config 'secret'
+May 19 16:37:31 debian charon: 01[IKE] authentication of '2.2.2.2' with pre-shared key successful
+May 19 16:37:31 debian charon: 01[IKE] peer supports MOBIKE
+May 19 16:37:31 debian charon: 01[IKE] authentication of '1.1.1.1' (myself) with pre-shared key
+May 19 16:37:31 debian charon: 01[IKE] IKE_SA secret[2] established between 1.1.1.1[1.1.1.1]...2.2.2.2[2.2.2.2]
+May 19 16:37:31 debian charon: 01[IKE] scheduling reauthentication in 10065s
+May 19 16:37:31 debian charon: 01[IKE] maximum IKE_SA lifetime 10605s
+May 19 16:37:31 debian charon: 01[IKE] CHILD_SA secret{1} established with SPIs ced602d7_i c3d42b11_o and TS 192.168.1.0/24 === 192.168.2.0/24 
+May 19 16:37:31 debian charon: 01[ENC] generating IKE_AUTH response 1 [ IDr AUTH SA TSi TSr N(AUTH_LFT) N(MOBIKE_SUP) N(ADD_4_ADDR) ]
+May 19 16:37:31 debian charon: 01[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 16:38:49 debian charon: 16[CFG] received stroke: initiate 'secret'
+May 19 16:38:49 debian charon: 10[IKE] establishing CHILD_SA secret
+May 19 16:38:49 debian charon: 10[ENC] generating CREATE_CHILD_SA request 0 [ SA No TSi TSr ]
+May 19 16:38:49 debian charon: 10[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 16:38:49 debian charon: 04[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 16:38:49 debian charon: 04[ENC] parsed CREATE_CHILD_SA response 0 [ SA No TSi TSr ]
+May 19 16:38:49 debian charon: 04[IKE] CHILD_SA secret{2} established with SPIs cd3d777b_i c8912a33_o and TS 192.168.1.0/24 === 192.168.2.0/24 
+May 19 16:56:53 debian charon: 14[CFG] received stroke: terminate 'secret'
+May 19 16:56:53 debian charon: 16[IKE] deleting IKE_SA secret[2] between 1.1.1.1[1.1.1.1]...2.2.2.2[2.2.2.2]
+May 19 16:56:53 debian charon: 16[IKE] sending DELETE for IKE_SA secret[2]
+May 19 16:56:53 debian charon: 16[ENC] generating INFORMATIONAL request 1 [ D ]
+May 19 16:56:53 debian charon: 16[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 16:56:53 debian charon: 03[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 16:56:53 debian charon: 03[ENC] parsed INFORMATIONAL response 1 [ ]
+May 19 16:56:53 debian charon: 03[IKE] IKE_SA deleted
+May 19 17:08:27 debian charon: 00[DMN] signal of type SIGINT received. Shutting down
+May 19 17:08:30 debian charon: 00[DMN] Starting IKEv2 charon daemon (strongSwan 4.5.2)
+May 19 17:08:30 debian charon: 00[KNL] listening on interfaces:
+May 19 17:08:30 debian charon: 00[KNL]   eth1
+May 19 17:08:30 debian charon: 00[KNL]     192.168.1.2
+May 19 17:08:30 debian charon: 00[KNL]     fe80::a00:27ff:fe4e:308c
+May 19 17:08:30 debian charon: 00[KNL]   eth2
+May 19 17:08:30 debian charon: 00[KNL]     1.1.1.1
+May 19 17:08:30 debian charon: 00[KNL]     fe80::a00:27ff:fe5a:63c8
+May 19 17:08:30 debian charon: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+May 19 17:08:30 debian charon: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+May 19 17:08:30 debian charon: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+May 19 17:08:30 debian charon: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+May 19 17:08:30 debian charon: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+May 19 17:08:30 debian charon: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+May 19 17:08:30 debian charon: 00[CFG] expanding file expression '/var/lib/strongswan/ipsec.secrets.inc' failed
+May 19 17:08:30 debian charon: 00[CFG]   loaded RSA private key from '/etc/ipsec.d/private/gw1-key.der'
+May 19 17:08:30 debian charon: 00[CFG] sql plugin: database URI not set
+May 19 17:08:30 debian charon: 00[LIB] plugin 'sql': failed to load - sql_plugin_create returned NULL
+May 19 17:08:30 debian charon: 00[CFG] loaded 0 RADIUS server configurations
+May 19 17:08:30 debian charon: 00[LIB] plugin 'medsrv' failed to load: /usr/lib/ipsec/plugins/libstrongswan-medsrv.so: cannot open shared object file: No such file or directory
+May 19 17:08:30 debian charon: 00[CFG] mediation client database URI not defined, skipped
+May 19 17:08:30 debian charon: 00[LIB] plugin 'medcli': failed to load - medcli_plugin_create returned NULL
+May 19 17:08:30 debian charon: 00[LIB] plugin 'nm' failed to load: /usr/lib/ipsec/plugins/libstrongswan-nm.so: cannot open shared object file: No such file or directory
+May 19 17:08:30 debian charon: 00[CFG] HA config misses local/remote address
+May 19 17:08:30 debian charon: 00[LIB] plugin 'ha': failed to load - ha_plugin_create returned NULL
+May 19 17:08:30 debian charon: 00[DMN] loaded plugins: test-vectors curl ldap aes des sha1 sha2 md5 random x509 revocation constraints pubkey pkcs1 pgp pem openssl fips-prf gmp agent pkcs11 xcbc hmac ctr ccm gcm attr kernel-netlink resolve socket-raw farp stroke updown eap-identity eap-aka eap-md5 eap-gtc eap-mschapv2 eap-radius eap-tls eap-ttls eap-tnc dhcp led addrblock 
+May 19 17:08:30 debian charon: 00[JOB] spawning 16 worker threads
+May 19 17:08:30 debian charon: 10[CFG] received stroke: add connection 'secret'
+May 19 17:08:30 debian charon: 10[CFG] added configuration 'secret'
+May 19 17:08:30 debian charon: 10[CFG] received stroke: initiate 'secret'
+May 19 17:08:30 debian charon: 10[IKE] initiating IKE_SA secret[1] to 2.2.2.2
+May 19 17:08:30 debian charon: 10[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 17:08:30 debian charon: 10[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 17:08:30 debian charon: 15[CFG] received stroke: add connection 'sscert'
+May 19 17:08:30 debian charon: 15[CFG]   loaded certificate "CN=gw1" from 'gw1-cert.der'
+May 19 17:08:30 debian charon: 15[CFG]   loaded certificate "CN=gw2" from 'gw2-cert.der'
+May 19 17:08:30 debian charon: 15[CFG] added configuration 'sscert'
+May 19 17:08:30 debian charon: 15[CFG] received stroke: initiate 'sscert'
+May 19 17:08:30 debian charon: 15[IKE] initiating IKE_SA sscert[2] to 2.2.2.2
+May 19 17:08:30 debian charon: 15[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 17:08:30 debian charon: 15[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 17:08:30 debian charon: 13[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 17:08:30 debian charon: 13[ENC] parsed IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(MULT_AUTH) ]
+May 19 17:08:30 debian charon: 13[IKE] authentication of 'CN=gw1' (myself) with RSA signature successful
+May 19 17:08:30 debian charon: 13[IKE] establishing CHILD_SA sscert
+May 19 17:08:30 debian charon: 13[ENC] generating IKE_AUTH request 1 [ IDi N(INIT_CONTACT) IDr AUTH SA TSi TSr N(MOBIKE_SUP) N(ADD_4_ADDR) N(MULT_AUTH) N(EAP_ONLY) ]
+May 19 17:08:30 debian charon: 13[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 17:08:30 debian charon: 14[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 17:08:30 debian charon: 14[ENC] parsed IKE_AUTH response 1 [ N(AUTH_FAILED) ]
+May 19 17:08:30 debian charon: 14[IKE] received AUTHENTICATION_FAILED notify error
+May 19 17:08:30 debian charon: 16[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 17:08:30 debian charon: 16[ENC] parsed IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(MULT_AUTH) ]
+May 19 17:08:30 debian charon: 16[IKE] authentication of '1.1.1.1' (myself) with pre-shared key
+May 19 17:08:30 debian charon: 16[IKE] no shared key found for '1.1.1.1' - '2.2.2.2'
+May 19 17:08:36 debian charon: 10[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 17:08:36 debian charon: 10[ENC] parsed IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 17:08:36 debian charon: 10[IKE] 2.2.2.2 is initiating an IKE_SA
+May 19 17:08:36 debian charon: 15[NET] received packet: from 2.2.2.2[500] to 1.1.1.1[500]
+May 19 17:08:36 debian charon: 15[ENC] parsed IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) ]
+May 19 17:08:36 debian charon: 15[IKE] 2.2.2.2 is initiating an IKE_SA
+May 19 17:08:36 debian charon: 10[ENC] generating IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(MULT_AUTH) ]
+May 19 17:08:36 debian charon: 10[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 17:08:36 debian charon: 15[ENC] generating IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(MULT_AUTH) ]
+May 19 17:08:36 debian charon: 15[NET] sending packet: from 1.1.1.1[500] to 2.2.2.2[500]
+May 19 17:08:36 debian charon: 13[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 17:08:36 debian charon: 13[ENC] parsed IKE_AUTH request 1 [ IDi N(INIT_CONTACT) IDr AUTH SA TSi TSr N(MOBIKE_SUP) N(ADD_4_ADDR) N(MULT_AUTH) N(EAP_ONLY) ]
+May 19 17:08:36 debian charon: 13[CFG] looking for peer configs matching 1.1.1.1[CN=gw1]...2.2.2.2[CN=gw2]
+May 19 17:08:36 debian charon: 13[CFG] selected peer config 'sscert'
+May 19 17:08:36 debian charon: 13[CFG]   using trusted certificate "CN=gw2"
+May 19 17:08:36 debian charon: 13[IKE] authentication of 'CN=gw2' with RSA signature successful
+May 19 17:08:36 debian charon: 13[IKE] peer supports MOBIKE
+May 19 17:08:36 debian charon: 13[IKE] authentication of 'CN=gw1' (myself) with RSA signature successful
+May 19 17:08:36 debian charon: 13[IKE] IKE_SA sscert[4] established between 1.1.1.1[CN=gw1]...2.2.2.2[CN=gw2]
+May 19 17:08:36 debian charon: 13[IKE] scheduling reauthentication in 10114s
+May 19 17:08:36 debian charon: 13[IKE] maximum IKE_SA lifetime 10654s
+May 19 17:08:36 debian charon: 13[IKE] CHILD_SA sscert{2} established with SPIs cbc91fa9_i c99d7aef_o and TS 192.168.1.0/24 === 192.168.2.0/24 
+May 19 17:08:36 debian charon: 13[ENC] generating IKE_AUTH response 1 [ IDr AUTH SA TSi TSr N(AUTH_LFT) N(MOBIKE_SUP) N(ADD_4_ADDR) ]
+May 19 17:08:36 debian charon: 13[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 17:08:53 debian charon: 02[CFG] received stroke: initiate 'sscert'
+May 19 17:08:53 debian charon: 04[IKE] establishing CHILD_SA sscert
+May 19 17:08:53 debian charon: 04[ENC] generating CREATE_CHILD_SA request 0 [ SA No TSi TSr ]
+May 19 17:08:53 debian charon: 04[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 17:08:53 debian charon: 03[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 17:08:53 debian charon: 03[ENC] parsed CREATE_CHILD_SA response 0 [ SA No TSi TSr ]
+May 19 17:08:53 debian charon: 03[IKE] CHILD_SA sscert{3} established with SPIs c1fe93d8_i ca159043_o and TS 192.168.1.0/24 === 192.168.2.0/24 
+May 19 17:09:01 debian charon: 10[NET] received packet: from 2.2.2.2[4500] to 1.1.1.1[4500]
+May 19 17:09:01 debian charon: 10[ENC] parsed CREATE_CHILD_SA request 2 [ SA No TSi TSr ]
+May 19 17:09:01 debian charon: 10[IKE] CHILD_SA sscert{4} established with SPIs c6803758_i cf047cf3_o and TS 192.168.1.0/24 === 192.168.2.0/24 
+May 19 17:09:01 debian charon: 10[ENC] generating CREATE_CHILD_SA response 2 [ SA No TSi TSr ]
+May 19 17:09:01 debian charon: 10[NET] sending packet: from 1.1.1.1[4500] to 2.2.2.2[4500]
+May 19 17:09:06 debian charon: 15[JOB] deleting half open IKE_SA after timeout

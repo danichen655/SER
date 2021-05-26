@@ -1,0 +1,4 @@
+openssl enc -e -aes-128-cbc -a -p -pass pass:seguridad -in textoplano1.txt -out texto-aes-128-cbc-1.txt
+
+
+Son diferentes ya que, si usamos el comando -p, podemos ver los parametros de la contraseña, que genera cada vez un salt diferente para generar la key y el iv (vector de inicializacion).

@@ -1,0 +1,117 @@
+;; RRset to chase:
+www.rediris.es.		3786	IN	A	130.206.13.20
+
+
+;; RRSIG of the RRset to chase:
+www.rediris.es.		3786	IN	RRSIG	A 8 3 7200 20210522094005 20210422085755 53625 rediris.es. OxBjt8OD0VvKVlzgZnlppsxatifjJmOOF8V5Ehr77b7rlzC3XHuLqpDm y5HZFonM0fb7q05MPiYFCs1t1VIph8R7arsgowaeYLDIgPaX+aXy1mIE Ebd5xXerH3cCJrMK9XeJ40Br/y+s9B3RaoDW01kMitpKVzKxmP5YHWGY IReVt+iv81In0SoxPSiyhfpMVtIvL1lX/1KJfY2iUmNJmDvTtmRTBXRi SUNLjic93dFnIh3a+5mlSWKXYTqN3mAW76BZhaWpTkycCvuYC2fqn1mD IOxKeWPbIQQBEvjm7pKU3rd8aXroD3nd3ts7sgxEJ/R1UTSJ6IKrhhw8 EKL9bQ==
+
+
+
+Launch a query to find a RRset of type DNSKEY for zone: rediris.es.
+####(Nos devuelve la IP con la firma RRSIG de ZSK privada)
+### (Para la validez del anterior firma, buscamos la ZSK publica de la DNSKEY, posteriormente, firmamos con la RRSIG de KSK privada.)
+
+;; DNSKEYset that signs the RRset to chase:
+rediris.es.		7099	IN	DNSKEY	257 3 8 AwEAAb4xrgeYyxIq9QaaNJ6YwYlDylWEuuLLR99Bx1MGqVb0ErcGVDXB fF0ll+p0wecc/4b0ZILFVw7ikeRy1D3VDYOVwrExuSxmhjVuWSec1RYt VHZeSX/ZthV6lRNN9v+qJE44gxef8JDUkNwv885Ieor4Oxc089ypJpGy KBVIMLW22RkHnrSIf4A4h3gW8IHjvUSWHGtdIQzKDlMuS7YACxyQRDbm s66BIXM4JlhOisE1n6JIf6mhHj8B5qOO1OCil1vIu33i5cjXF8RaDTaw HVUm56N1zxSsvKdrod0mbOXPfcy9HbmwfuAefcAYpeW8w2XoiP8/LIT2 Il5MtOhfO0qMI3Nb7zldw5i6ZRMaL2NirlzR5W1qRBQk6UTAWKpIJpMX NZ49bj70uhIWA9z0WdZdjVTcxPgyQy7lZLlIb1syZBygpPvZ89Is5T3i /ps37gkHjWkl5Q+J2hN7gjnqZnnEzNwXPqBVCPocwFuPcpicy6tUNB/h XrZyW5IZetMNZi6V2UjhGSwXExtWRF8Dol+A4YGYn+61KCZEim/M8Lep 8QFMDmrl27xstJ/EiKC+8O3JsAxf84O8l8NX3CKXT/+YdOLJsVYzUbTt BZJbZ8SQT6sHuEFGjWNYleIAhJnOyaj6MZprKkRrVPUb/DglLeSSv3wF 9mMvOF45x9vygvs1
+rediris.es.		7099	IN	DNSKEY	256 3 8 AwEAAbLZ3ffw/T5giPmg/9stLxQqJDrd6Vv923ytLARJgmoWhMVekTz7 FoBkVEzdB3kJiXck1m/0esamOuU0s6ijmCfJsl+mqxp/XtrGBKFvQ+0Y YCYnon75mT68fSI8lyJnA58FKfARN9Rh+FCaCSI2twgI+jPYqaXdVy4I dgD/Cm5y7yViK10fU3hOawcYldZNTwU+BifTYpjgVEblhyrhXiBbpYz+ b2zzdycIbyMWl41YydekguUw1n9rQJQAyb2vOw6xRVOxP+YIwaB/W0zT V/P8ocojIP6XUCaemOOAIN/Ki6wghV/rq+KH4EqKl7GJRY4LAmyxQvBq w6J7ENirfgE=
+
+
+;; RRSIG of the DNSKEYset that signs the RRset to chase:
+rediris.es.		7099	IN	RRSIG	DNSKEY 8 2 7200 20210522061338 20210422060313 18739 rediris.es. YPsbTdCBsgaZH8F5vd0TVlLWJNJUQfZ7JfPqNVPKk1TSA/F1oEwjX6c2 o2td94z82bhLSKH2XPA/xGw+2k2BBYxdqRyxcKUIgAIDj7c48KXo/flH RHWoPAVvtTsrOI3mOd0VBkvEhL9Qn274MfDIcNDNyytVHxW/Sa3ZA6cu XCkVrdPY2+YJRHRjiiUFKXl7ba4JDXu9fDsXkEYlZ5Jg5Ny/QkWK5ZWu KD2SJ6isu4ROugMfRWPYi7tK90RHjP9/sfcTXNT4S3DNdY9l8faUc/2l SsCWNgk8271C4Ep2I0CDvHmhSOK7Uj60CJMMU65YlvU6TJfal750b0PW JcyDx40gNsKKuHBUr1G+zrAkn0a7Sdv+Tuo+zPhkyzZztk5ibpSZ7Wji YsTi9yuiyE+bmQYTKhNEiw9Q4aQu3bUJiUGqGUU53yqZocJeWIEW4cwB qIgwMoW7edp46Qff+pxCdJ8JG/69HURjtyhXZMfqdF9nJmfoNwC3avXe yoi0AohW7N5Rif2QiAlN94vw7ho6qQDfZ0C7be6mdHHaHwjl7ktebPUQ y7jAinOm+TrD42cSsN7MXF0HmSwj/P1iwbkwKiZxYdfOL4YaJBMHa9yx OodaIeosNpEeeB3A52WlHGTF+hdLRyqrttkhjWQUMbGl1cmrXC4I7YsV tv1A/yysrM8=
+
+
+
+Launch a query to find a RRset of type DS for zone: rediris.es.
+####(Para validar la firma anterior de KSK, usamos la DNSKEY de la KSK publica.)
+;; DSset of the DNSKEYset
+rediris.es.		21599	IN	DS	18739 8 1 FAE92A298DF5B776BB603FCE3E033B7EC55C0B98
+rediris.es.		21599	IN	DS	18739 8 2 7AB62E59309F945313A8E6D35262AA691E6D1C2A7479D63405B54F88 DDFC2D89
+
+
+;; RRSIG of the DSset of the DNSKEYset
+rediris.es.		21599	IN	RRSIG	DS 8 2 86400 20210427025646 20210413030515 57484 es. Smnit1AZrdL9k4Cid2hfxKzh4nMKOH3oDJVLuNnpLlBNavt4bqvbehpK AHGCnYywQCDiznbjssG/+HcUO5Kt2rb7U3zVg1VUbQG0v6TMpEafVfan X0kNmEE0uZVEp0IpKWrB5CvqInQvbbYQ5IV6+0miCzUV8F9D3BwZC7UB Nvc=
+
+
+
+
+;; WE HAVE MATERIAL, WE NOW DO VALIDATION
+;; VERIFYING A RRset for www.rediris.es. with DNSKEY:53625: success
+;; OK We found DNSKEY (or more) to validate the RRset
+;; Now, we are going to validate this DNSKEY by the DS
+;; OK a DS valids a DNSKEY in the RRset
+;; Now verify that this DNSKEY validates the DNSKEY RRset
+;; VERIFYING DNSKEY RRset for rediris.es. with DNSKEY:18739: success
+;; OK this DNSKEY (validated by the DS) validates the RRset of the DNSKEYs, thus the DNSKEY validates the RRset
+;; Now, we want to validate the DS :  recursive call
+
+
+Launch a query to find a RRset of type DNSKEY for zone: es.
+
+###(Para comprobar la validez de la anterior clave de KSK, vamos al dominio .es. )
+
+;; DNSKEYset that signs the RRset to chase:
+es.			14488	IN	DNSKEY	256 3 8 AwEAAbSGDy5UIEUeKG6wc4j2idSBIW0tOW0DDrTeSMSvuwvzjT5zgHj5 NhWgMv1ynu7ZWjLFX9XqUpMWYRp7vAzvOqHuZUta5RJ9EorHtYvnqgQ3 Txh3FDN2h0CT39er16MnorcnArypAfVv6QQz5WSxbalRcE85dADfw8+S H6T1Vd45
+es.			14488	IN	DNSKEY	256 3 8 AwEAAaNrIYcTbdSi9R7IwKNtLIKD2VnR3GiRIdAy4dsyF0ayvRtw8uAX ryfgRTlShg72Lx62iwGAy2GFid3dFoIbu/T0KRTuNP5dX3BjseaudM9F iIYzTmY1qVBDkLoEYCHZbxgn40luSngovsLlMRHr6RBoJ3+t3ITHz4ks DFjCikP5
+es.			14488	IN	DNSKEY	257 3 8 AwEAAcx/A937k2uXiNaReGX1grLJhc2oYWuX5suwUXdKhisqHh7UVEZD PuBdEoZlK81vitsp4o1AAYlemNQmUIBXxkxBEQqOH8GwW3+d6nkdQaYY HWvgPS/7xKHvG3muIToWyi7jcTjLUdoATwbgdn55AiK3/DYvpgQ6nEBT sytLMEL6LJddEm5WHgu+/7JPy5hgL4ZPVdkrCHrjhbNF3HknHO2bULER 5u8pfMUNH4bt9e1w+uY5MoGeoALEPRPcn0Fz1ixaAkLajcQjMkFHRP8L SmhQiwwO/JQSF27khrtUYp/B5A8TjqY0hEQlV4rUNP0NzkGzEPLOIiWx cXLpoSazArM=
+
+
+;; RRSIG of the DNSKEYset that signs the RRset to chase:
+es.			14488	IN	RRSIG	DNSKEY 8 1 86400 20210504175723 20210420150509 50252 es. FBNt8RqUhgJouPMxDVMUU0AwbQXVVTSPYJBurJV6aCmJnhCwj7+usDwe 5KULknJPQaZpS7T5YDDv+PkxtQcyg0/PwtFtS1W2KVhER3irOIXVkMSo beSeF1lMOt9yIljbgGFfFiRGkJtm20kkcOwMcVO0l33ow5NAWFLAY4t8 YZ3o7FWyF9RX6J1d1eoO+L3phdjBzyAwPLk3xtKDMbQzDAVvHDyFvL72 ThriGdkb3j+0bTQvM7YopZPW8bgrk3gZ0HyDVuPGo3CvVy7HD1j9hkxu ttyx8ooEBhFabPz11urH5E31/JJ9fj7SLi/tYbhrtekkCvMIulv6Hoel 95qJ9A==
+
+
+
+Launch a query to find a RRset of type DS for zone: es.
+
+###(Y miramos si con el DS tiene el hash de la clave publica de KSK.)
+
+;; DSset of the DNSKEYset
+es.			74720	IN	DS	50252 8 1 9BF0115B43A4EE8F7223FBF5B294D91CDEED2DBE
+es.			74720	IN	DS	50252 8 2 DD2B515DA6DBC0E826006E6AE02864C05825694A84B3E4E0E59918C7 8C1BC8EB
+
+
+;; RRSIG of the DSset of the DNSKEYset
+es.			74720	IN	RRSIG	DS 8 1 86400 20210505050000 20210422040000 14631 . BBX41oMxQTmcZRr9pgV17d7f59EDkFL+e4PnPLIFfvlMd3qDmeNYJyJ0 rr0GmtN7j2ZJIhnQFksHWHckG6lM+W6z5vD+pyFC0FNeK3gxHpPW32j+ RvmlXaVEmuuGcZdZ5v+VKXW97JIw/ac1s7uOb1HIbbd6oFH8v9qJJ499 nEkC7hF9Jx3XgloixIJ4HI7rbpbFOkjs6NXkS+p0jPwW7zLg98kleVOP xitxrLeW5Csl5891l3hb/u17BIqdyeF0so7NMAKsPTenAE94ls3EfCBa oCmZLTVeK+nAtzk6Trj1bYhJmBNEFpsV9XpmODzaKkM3Wk36864M+WY1 qyWi8w==
+
+
+
+
+;; WE HAVE MATERIAL, WE NOW DO VALIDATION
+;; VERIFYING DS RRset for rediris.es. with DNSKEY:57484: success
+;; OK We found DNSKEY (or more) to validate the RRset
+;; Now, we are going to validate this DNSKEY by the DS
+;; OK a DS valids a DNSKEY in the RRset
+;; Now verify that this DNSKEY validates the DNSKEY RRset
+;; VERIFYING DNSKEY RRset for es. with DNSKEY:50252: success
+;; OK this DNSKEY (validated by the DS) validates the RRset of the DNSKEYs, thus the DNSKEY validates the RRset
+;; Now, we want to validate the DS :  recursive call
+
+
+Launch a query to find a RRset of type DNSKEY for zone: .
+
+###(Para comprobar la validez de la anterior clave de KSK, vamos al dominio .es. )
+
+;; DNSKEYset that signs the RRset to chase:
+.			85706	IN	DNSKEY	256 3 8 AwEAAa+HvD7XXjmL+1htThUQyZW7oWGnjzKHJASg3TSR5Bmu5LfnSVW7 fxqZa2oAYo2ionIQWyqAj/loApzg8GNMhyIibftPJso54uWRQ2GaoMrw LD5SLu676kf7urJq6nqdjNC0aJM/C888li69lVH6tiu2tZm1NH3cmgfn MUJpD60bsrDUqs7XwftmNkdkHa4ltQbM3UNPyfTaNBQYoH3wpOpSjdk3 tyDRnreBO6Idrw+DGf/rve4sL3qiSaXfYIkcwAwozxR34iHU5dbCDs8S 6FmZYhoSVKVgNSUkudxhd9/6RrZkYRgvwRsQXl3UwsacU1DsXcORqIC+ 7NlQ6M2OJVU=
+.			85706	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3 +/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kv ArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF 0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+e oZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfd RUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwN R1AkUTV74bU=
+
+
+;; RRSIG of the DNSKEYset that signs the RRset to chase:
+.			85706	IN	RRSIG	DNSKEY 8 0 172800 20210512000000 20210421000000 20326 . bx5MOQGiU0gAwVPCF6fPBYdApVZCvs4fZ3603lzlRdtiHNsNSk2j/mVU 7UD6oZkA/q/AIucEPGMDLua0HNNnfhW8QsYssPHURJpcOUhgt17GinAD GwADQYSI6fH12kFnb5wIZ/jznJ58dCdJDr0E7tg6GarIqeu190nLM+sp 75CNlKEG3HrrdSIGLWY8CFU1wLcU43ZAXaCiO5D6XwV8j7WUOs0n8XB4 8JzOyq4nZ/9Pt6Nl1QWT1UMrGZPPpBBeBKFeggIiGmDuzCn/nrk8F5zu N8f8RvhCxJZi1Kf6rEB0l79XXZ+JnpyjIJrNSNsDxeTQkO5NgXOrols1 Gxv/QA==
+
+
+
+Launch a query to find a RRset of type DS for zone: .
+;; NO ANSWERS: no more
+
+;; WARNING There is no DS for the zone: .
+
+
+
+;; WE HAVE MATERIAL, WE NOW DO VALIDATION
+;; VERIFYING DS RRset for es. with DNSKEY:14631: success
+;; OK We found DNSKEY (or more) to validate the RRset
+;; Ok, find a Trusted Key in the DNSKEY RRset: 20326
+;; VERIFYING DNSKEY RRset for . with DNSKEY:20326: success
+
+;; Ok this DNSKEY is a Trusted Key, DNSSEC validation is ok: SUCCESS
+

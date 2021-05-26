@@ -1,0 +1,119 @@
+* OK Still here
+
+DONE
+
+25 OK Idle completed.
+
+26 noop
+
+26 OK NOOP completed.
+
+27 UID fetch 2:* (FLAGS)
+
+* 1 FETCH (UID 1 FLAGS (\Seen \Recent))
+27 OK Fetch completed.
+
+28 IDLE
+
++ idling
+
+DONE
+
+28 OK Idle completed.
+
+29 append "Sent" (\Seen) {385+}
+To: benito@mailserver.lab.ser
+From: Ana Gil Molina <ana@mailserver.lab.ser>
+Subject: Hola
+Message-ID: <6074B95C.3000700@mailserver.lab.ser>
+Date: Mon, 12 Apr 2021 23:19:24 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101
+ Icedove/38.7.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Hola
+
+
+
+* 2 EXISTS
+* 2 RECENT
+29 OK [APPENDUID 1618261412 2] Append completed.
+
+30 noop
+
+30 OK NOOP completed.
+
+31 IDLE
+
++ idling
+
+DONE
+
+31 OK Idle completed.
+
+32 noop
+
+32 OK NOOP completed.
+
+33 UID fetch 2:* (FLAGS)
+
+* 2 FETCH (UID 2 FLAGS (\Seen \Recent))
+33 OK Fetch completed.
+
+34 UID fetch 2 (UID RFC822.SIZE FLAGS BODY.PEEK[HEADER.FIELDS (From To Cc Bcc Subject Date Message-ID Priority X-Priority References Newsgroups In-Reply-To Content-Type Reply-To)])
+
+* 2 FETCH (UID 2 RFC822.SIZE 385 FLAGS (\Seen \Recent) BODY[HEADER.FIELDS (FROM TO CC BCC SUBJECT DATE MESSAGE-ID PRIORITY X-PRIORITY REFERENCES NEWSGROUPS IN-REPLY-TO CONTENT-TYPE REPLY-TO)] {241}
+To: benito@mailserver.lab.ser
+From: Ana Gil Molina <ana@mailserver.lab.ser>
+Subject: Hola
+Message-ID: <6074B95C.3000700@mailserver.lab.ser>
+Date: Mon, 12 Apr 2021 23:19:24 +0200
+Content-Type: text/plain; charset=utf-8; format=flowed
+
+)
+34 OK Fetch completed.
+
+35 IDLE
+
++ idling
+
+* OK Still here
+
+DONE
+
+35 OK Idle completed.
+
+36 noop
+
+36 OK NOOP completed.
+
+37 UID fetch 3:* (FLAGS)
+
+* 2 FETCH (UID 2 FLAGS (\Seen \Recent))
+37 OK Fetch completed.
+
+38 IDLE
+
++ idling
+
+* OK Still here
+
+DONE
+
+38 OK Idle completed.
+
+39 noop
+
+39 OK NOOP completed.
+
+40 UID fetch 3:* (FLAGS)
+
+* 2 FETCH (UID 2 FLAGS (\Seen \Recent))
+40 OK Fetch completed.
+
+41 IDLE
+
++ idling
+

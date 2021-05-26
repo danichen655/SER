@@ -1,0 +1,280 @@
+//PREPARACION
+sudo apt-get install gedit
+sudo chmod 4711 /usr/bin/dumpcap
+sudo -i
+
+//REDES
+//router -> pub1 y pub2
+//gw1    -> priv1 y pub1
+//gw2    -> priv2 y pub2
+//h1     -> priv1
+//h2     -> priv2
+
+//router
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip link set dev eth2 up
+sudo ip addr add 1.1.1.10/24 broadcast + dev eth1
+sudo ip addr add 2.2.2.10/24 broadcast + dev eth2
+sudo sysctl -w net.ipv4.ip_forward=1
+
+//gw1
+sudo apt-get update
+sudo apt-get install ssh strongswan 
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip link set dev eth2 up
+sudo ip addr add 192.168.1.2/24 broadcast + dev eth1
+sudo ip addr add 1.1.1.1/24 broadcast + dev eth2
+sudo ip route add default via 1.1.1.10
+sudo sysctl -w net.ipv4.ip_forward=1
+
+//gw2
+sudo apt-get update
+sudo apt-get install ssh strongswan 
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip link set dev eth2 up
+sudo ip addr add 192.168.2.2/24 broadcast + dev eth1
+sudo ip addr add 2.2.2.2/24 broadcast + dev eth2
+sudo ip route add default via 2.2.2.10
+sudo sysctl -w net.ipv4.ip_forward=1
+
+//host1
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip addr add 192.168.1.1/24 broadcast + dev eth1
+sudo ip route add default via 192.168.1.2
+
+//host2
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip addr add 192.168.2.1/24 broadcast + dev eth1
+sudo ip route add default via 192.168.2.2
+
+///////////////// PARTE 1 ////////////////
+
+//E1
+gedit /etc/ipsec-tools.conf
+sudo /etc/init.d/setkey start
+x2
+
+mv /etc/ipsec-tools.conf /home/usuario/Escritorio/
+mv /home/usuario/Escritorio/ /etc/ipsec-tools.conf
+
+//E2
+sudo ip xfrm policy
+sudo ip xfrm state
+
+//E3
+gedit  /etc/ipsec.secrets
+x2
+
+gedit /etc/ipsec.conf
+x2
+
+sudo ipsec restart
+x2
+
+sudo ipsec up secret (gw1)
+netstat -ant
+
+gedit /var/log/daemon.log
+mv /var/log/daemon.log /home/usuario/Escritorio/
+mv /home/usuario/Escritorio/ /var/log/daemon.log
+
+//E4
+sudo ipsec status
+sudo ipsec statusall
+sudo ip xfrm policy
+sudo ip xfrm state
+
+sudo ipsec down secret (gw1)
+
+
+//E5
+//gw1
+sudo sh -c "ipsec pki --gen > /etc/ipsec.d/private/gw1-key.der"
+sudo sh -c "ipsec pki --self --in /etc/ipsec.d/private/gw1-key.der --dn "CN=gw1" > /etc/ipsec.d/certs/gw1-cert.der"
+
+//gw2
+sudo sh -c "ipsec pki --gen > /etc/ipsec.d/private/gw2-key.der"
+sudo sh -c "ipsec pki --self --in /etc/ipsec.d/private/gw2-key.der --dn "CN=gw2" > /etc/ipsec.d/certs/gw2-cert.der"
+
+//gw1
+sudo scp usuario@2.2.2.2:/etc/ipsec.d/certs/gw2-cert.der /etc/ipsec.d/certs/
+
+//gw2
+sudo scp usuario@1.1.1.1:/etc/ipsec.d/certs/gw1-cert.der /etc/ipsec.d/certs/
+
+//gw1 y gw2
+gedit /etc/ipsec.secrets
+gedit /etc/ipsec.conf
+
+sudo ipsec restart
+sudo ipsec up sscert
+netstat -ant
+gedit  /var/log/daemon.log
+
+ 
+//E6 en gw1 y gw2
+sudo ipsec status
+sudo ipsec statusall
+sudo ip xfrm policy
+sudo ip xfrm state
+
+
+///////////////// PARTE 2 ////////////////
+
+
+//router
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip link set dev eth2 up
+sudo ip link set dev eth3 up
+sudo ip addr add 1.1.1.10/24 broadcast + dev eth1
+sudo ip addr add 2.2.2.10/24 broadcast + dev eth2
+sudo ip addr add 3.3.3.10/24 broadcast + dev eth3
+sudo sysctl -w net.ipv4.ip_forward=1
+
+//host1
+sudo apt-get update
+sudo apt-get install ssh apache2
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip addr add 1.1.1.1/24 broadcast + dev eth1
+sudo ip route add default via 1.1.1.10
+
+gedit /var/www/index.html
+
+//host2
+sudo apt-get update
+sudo apt-get install ssh
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip addr add 2.2.2.2/24 broadcast + dev eth1
+sudo ip route add default via 2.2.2.10
+
+//host3
+sudo apt-get update
+sudo apt-get install apache2
+sudo ifdown eth0
+sudo ip link set dev eth1 up
+sudo ip addr add 3.3.3.3/24 broadcast + dev eth1
+sudo ip route add default via 3.3.3.10
+
+gedit /var/www/index.html
+
+-- B" metodos de autentificacion en openSSh
+
+//host1
+ssh usuario@2.2.2.2 
+ssh-keygen
+
+ls -l .ssh
+
+//segun la ruta que me diga el comando anterior
+cat /root/.ssh/id_rsa
+cat /root/.ssh/id_rsa.pub
+// ó
+cat /home/usuario/.ssh/id_rsa
+cat /home/usuario/.ssh/id_rsa.pub
+usuario
+
+ssh-copy-id 2.2.2.2
+(host 2)chmod 600 /root/.ssh/authorized_keys
+
+ssh usuario@2.2.2.2 -v
+eval `ssh-agent`
+ssh-add
+exit
+
+//host1 y 2
+rm -r /home/usuario/.ssh/*
+
+//E8
+-- B.3. Reenvío de puertos (port fowarding) local
+
+// router
+sudo iptables -P INPUT DROP
+sudo iptables -P OUTPUT DROP
+sudo iptables -P FORWARD DROP
+sudo iptables -A FORWARD -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A FORWARD -i eth2 -o eth3 -j ACCEPT
+sudo iptables -A FORWARD -i eth3 -o eth2 -j ACCEPT
+sudo iptables -A FORWARD -i eth1 -p tcp -m tcp --dport 22 -m state --state NEW -j ACCEPT
+
+//host1 y host2
+http://3.3.3.3
+
+//host1
+ssh -v -N -L 8080:3.3.3.3:80 usuario@2.2.2.2
+http://localhost:8080
+...
+^C
+
+//9 
+-- B.3. Reenvío de puertos (port fowarding) remoto
+// router
+sudo iptables -D FORWARD -i eth1 -p tcp -m tcp --dport 22 -m state --state NEW -j ACCEPT
+sudo iptables -A FORWARD -o eth1 -p tcp -m tcp --dport 22 -m state --state NEW -j ACCEPT
+
+//host1
+http://3.3.3.3
+
+//host2
+ssh -v -N -R 8080:3.3.3.3:80 usuario@1.1.1.1
+
+//host1
+http://localhost:8080
+^C
+
+//10
+// router
+sudo iptables -D FORWARD -o eth1 -p tcp -m tcp --dport 22 -m state --state NEW -j ACCEPT
+sudo iptables -A FORWARD -i eth1 -p tcp -m tcp --dport 22 -m state --state NEW -j ACCEPT
+
+//host3
+http://1.1.1.1
+//host1
+ssh -v -N -R 8080:localhost:80 usuario@2.2.2.2
+//host3
+http://2.2.2.2:8080
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

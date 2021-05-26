@@ -1,0 +1,17 @@
+//rediris.es
+6pdn99rk9bffk1q7e26jo972j9nf904e.rediris.es. 7199 IN NSEC3 1 0 10 ACC61076 6V6DFSADTMV4Q4CLI6KO8ET9EP97UIT6 CNAME RRSIG
+
+1. El tipo de función hash empleada (1 = SHA-1)
+2. Flag opt-out. Indica si esta zona permite la existencia de zonas delegadas inseguras (0 = no se permite)
+3. Iteraciones: número de veces que se aplica la función hash. (10)
+4. Salt: valor adicional para el cálculo del resumen. (ACC61076)
+5. Función hash del siguiente nombre DNS (next owner name) existente en la zona (6V6DFSADTMV4Q4CLI6KO8ET9EP97UIT6)
+6. Tipos de RR: indica los tipos de RR existentes asociados al nombre del propietario (CNAME RRSIG)
+
+
+ietf.org.		1799	IN	NSEC	_dmarc.ietf.org. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY SPF
+
+//ieft.org
+DNS = _dmarc.ietf.org. A NS SOA MX TXT AAAA
+RR = RRSIG NSEC DNSKEY SPF
+

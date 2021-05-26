@@ -1,0 +1,7 @@
+a LIST "" *
+* LIST (\NoInferiors \UnMarked \Trash) "/" "Trash"
+* LIST (\HasNoChildren) "/" "INBOX"
+
+a EXAMINE Trash
+a OK [READ-ONLY] Select completed.
+

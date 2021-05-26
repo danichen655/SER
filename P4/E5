@@ -1,0 +1,17 @@
+oot@debian:~# sudo nmap -sSV 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:42 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.00014s latency).
+Not shown: 96 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     OpenBSD ftpd 6.4 (Linux port 0.17)
+22/tcp open  ssh     OpenSSH 6.0p1 Debian 4+deb7u4 (protocol 2.0)
+23/tcp open  telnet  Linux telnetd
+80/tcp open  http    Apache httpd 2.2.22 ((Debian))
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems)
+Service Info: Host: debian; OS: Linux; CPE: cpe:/o:linux:kernel
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.35 seconds
+

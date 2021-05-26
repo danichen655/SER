@@ -1,0 +1,9 @@
+el algoritmo rc4 no usa el valor IV
+
+openssl enc -e -rc4 -a -p -pass pass:seguridad -in textoplano1.txt -out text-rc4-1.bin
+salt=86AA61A99FC4A3D6
+key=4439F96CC656C5F5D5D0CDAE3E37B5FB
+
+openssl enc -e -rc4 -a -p -pass pass:seguridad -in textoplano1.txt -out text-rc4-2.bin
+salt=1351EAE1C01F96C2
+key=4EB581CC2128C06DFD2AE32FACB392B2

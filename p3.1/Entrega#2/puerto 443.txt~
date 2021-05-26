@@ -1,0 +1,1 @@
+openssl ca -in servercsr.pem -out servercert.pem

@@ -1,0 +1,44 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20210422153636
+; answer
+www.isc.org.		29	IN CNAME dualstack.osff2.map.fastly.net.
+; answer
+			29	RRSIG	CNAME 13 3 60 20210503141419 (
+					20210403133511 27566 isc.org.
+					UZ9FsXtfyrhpNEQz52RPerreecgBoL84SlZy
+					79PL9L3KIkrTme33deahIuEhktLUCg53qMV/
+					ciIiiEOMnb9szg== )
+;
+; Address database dump
+;
+;
+; Unassociated entries
+;
+;	8.8.4.4 [srtt 12347] [flags 00002000] [ttl 1770]
+;	8.8.8.8 [srtt 9746] [flags 00002000] [ttl 1770]
+;
+; Bad cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20210422153636
+;
+; Address database dump
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+; Dump complete
+

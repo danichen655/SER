@@ -1,0 +1,5 @@
+Estamos usando la version TLS 1.1.
+
+El mecanismo de criptografia usamos AES_128_CBC con SHA1.
+
+Y la autenticacion de mensaje e intercambio de clave es ECDHE_RSA

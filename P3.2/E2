@@ -1,0 +1,9 @@
+a LIST "" *
+* LIST (\NoInferiors \UnMarked \Trash) "/" "Trash"
+* LIST (\HasNoChildren) "/" "INBOX"
+
+a EXAMINE Trash
+a OK [READ-ONLY] Select completed.
+a EXAMINE Inbox
+a NO [SERVERBUG] Internal error occurred. Refer to server log for more information. [2021-04-12 22:53:33]
+

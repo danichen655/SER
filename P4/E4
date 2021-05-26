@@ -1,0 +1,71 @@
+root@debian:~# nmap -sT 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:38 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.0018s latency).
+Not shown: 96 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems
+
+------------------------------------------------------------------
+root@debian:~# sudo nmap -sS 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:39 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.00040s latency).
+Not shown: 96 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.08 seconds
+------------------------------------------------------------------
+root@debian:~# sudo nmap -sA 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:39 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.00038s latency).
+All 100 scanned ports on 192.168.1.11 are unfiltered
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.07 seconds
+------------------------------------------------------------------
+
+root@debian:~#  sudo nmap -sF 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:40 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.00022s latency).
+Not shown: 96 closed ports
+PORT   STATE         SERVICE
+21/tcp open|filtered ftp
+22/tcp open|filtered ssh
+23/tcp open|filtered telnet
+80/tcp open|filtered http
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems)
+
+Nmap done: 1 IP address (1 host up) scanned in 14.27 seconds
+------------------------------------------------------------------
+root@debian:~#  sudo nmap -sN 192.168.1.11 -p 1-100
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2021-05-06 18:41 CEST
+Nmap scan report for 192.168.1.11
+Host is up (0.00044s latency).
+Not shown: 96 closed ports
+PORT   STATE         SERVICE
+21/tcp open|filtered ftp
+22/tcp open|filtered ssh
+23/tcp open|filtered telnet
+80/tcp open|filtered http
+MAC Address: 08:00:27:C6:7A:8A (Cadmus Computer Systems)
+
+Nmap done: 1 IP address (1 host up) scanned in 14.27 seconds
+------------------------------------------------------------------
+

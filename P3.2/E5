@@ -1,0 +1,10 @@
+Como vemos en la entraga 3 de SMTP podemos ver todo el mensaje que hemos enviado, en cambio en la entrega 4 de SMTP solo vemos el titulo del mensaje y y el cuerpo lo vemos en forma encriptado.
+
+
+E4:
+Content-Type: application/pkcs7-mime; name="smime.p7m"; smime-type=enveloped-data
+E3:
+Content-Type: text/plain; charset=utf-8; format=flowed
+
+El content-Type de la E3 esta en formato de texto plano
+Y en la E4 el S/MIME especifica el tipo application/pkcs7-mime (tipo smime "enveloped-data") para envoltura de datos (cifrado).
